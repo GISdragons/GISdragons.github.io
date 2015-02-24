@@ -15,10 +15,13 @@
     <h2 style="text-align: center;">Test Map</h2>
     <div id="map" class="map"></div>
     <script type="text/javascript">
+	  
+	  var projection = ol.proj.get('EPSG:3857');
+	  
 	  var KirtlandTemple = new ol.layer.Vector({
 	  	source: new ol.source.KML({
-	  		//Put Projection variable here
-	  		url: 'Kirtland Temple.kml'
+	  		projection: projection,
+	  		url: 'Kirtland Temple-03.kml'
 	  	})
 	  });
 	  
@@ -31,8 +34,8 @@
 		
 		],
 		view: new ol.View({
-		  center: ol.proj.transform([-118.914, 43.306], 'EPSG:4326', 'EPSG:3857'),
-		  zoom: 10
+		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
+		  zoom: 19
 		})
 	  });
     </script>
