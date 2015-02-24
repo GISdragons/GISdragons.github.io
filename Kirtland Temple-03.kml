@@ -75,11 +75,11 @@
   <Style id="IconStyle00">
     <IconStyle>
       <Icon><href>Layer0_Symbol_b7bf3e0_0.png</href></Icon>
-      <scale>0.250000</scale>
+      <scale>1.0000</scale>
     </IconStyle>
     <LabelStyle>
-      <color>00000000</color>
-      <scale>0.000000</scale>
+      <color>ff00ff00</color>
+      <scale>1.000000</scale>
     </LabelStyle>
     <PolyStyle>
       <color>ff000000</color>
