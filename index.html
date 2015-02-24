@@ -15,12 +15,19 @@
     <h2 style="text-align: center;">Test Map</h2>
     <div id="map" class="map"></div>
     <script type="text/javascript">
+	  var KirtlandTemple = new ol.layer.Vector({
+	  	source: new ol.source.KML({
+	  		//Put Projection variable here
+	  		url: 'Kirtland Temple.kml'
+	  	})
+	  });
+	  
 	  var map = new ol.Map({
 		target: 'map',
 		layers: [
 		  new ol.layer.Tile({
 			source: new ol.source.MapQuest({layer: 'sat'})
-		  })
+		  }),KirtlandTemple
 		
 		],
 		view: new ol.View({
