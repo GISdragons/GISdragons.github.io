@@ -25,12 +25,19 @@
 	  	})
 	  });
 	  
+	  var JSLife = new ol.layer.Vector({
+	  	source: new ol.source.KML({
+	  		projection: projection,
+	  		url: 'Joseph Smith Life.kml'
+	  	})
+	  })
+	  
 	  var map = new ol.Map({
 		target: 'map',
 		layers: [
 		  new ol.layer.Tile({
 			source: new ol.source.MapQuest({layer: 'sat'})
-		  }),KirtlandTemple
+		  }),KirtlandTemple,JSLife
 		
 		],
 		view: new ol.View({
