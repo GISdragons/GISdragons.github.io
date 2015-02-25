@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Joseph Smith Life.kml</name>
-	<Style id="s_ylw-pushpin">
+	<name>Joseph Smith Life Final.kml</name>
+	<Style id="s_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -11,7 +11,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -20,6 +20,16 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -47,16 +57,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -64,10 +64,113 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin1</styleUrl>
@@ -77,7 +180,16 @@
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin1">
+	<Style id="s_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -153,7 +265,7 @@
 				<range>1116.185481131046</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-77.23985762069738,43.0409851732468,0</coordinates>
@@ -170,7 +282,7 @@
 				<range>1692.993618743712</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-75.63870322732765,41.95117047671236,0</coordinates>
@@ -187,7 +299,7 @@
 				<range>3824.186507715298</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-75.62945452653408,41.94407110266403,0</coordinates>
@@ -195,7 +307,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Nauvoo, Illinois</name>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -209,6 +321,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Nauvoo Temple</name>
+			<description><![CDATA[<img src="https://www.google.com/search?q=nauvoo+temple&espv=2&biw=1680&bih=949&source=lnms&tbm=isch&sa=X&ei=j_3sVJN2hquCBMTug9gK&ved=0CAcQ_AUoAg&dpr=1#imgdii=_&imgrc=K5Rl-4uNK3zvnM%253A%3B92ctqGSvbjbRVM%3Bhttps%253A%252F%252Fwww.lds.org%252Fbc%252Fcontent%252Fchurch%252Ftemples%252Fnauvoo-illinois%252Fimages%252Fnauvoo-illinois-808x480-CWD_091410_JArnesen.jpg%3Bhttps%253A%252F%252Fwww.lds.org%252Fchurch%252Ftemples%252Fnauvoo-illinois%253Flang%253Deng%3B808%3B480"/><a href="https://www.lds.org/church/temples/nauvoo-illinois?lang=eng">https://www.lds.org/church/temples/nauvoo-illinois?lang=eng</a>]]></description>
 			<LookAt>
 				<longitude>-91.36638468762428</longitude>
 				<latitude>40.54852380778416</latitude>
@@ -218,7 +331,7 @@
 				<range>6464.223210140332</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-91.38461437874106,40.54986612000675,0</coordinates>
@@ -226,8 +339,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Peter Whitmer house</name>
-			<description>This is where the first meeting of the church was held
-</description>
+			<description>This is where the first meeting of the church was held</description>
 			<LookAt>
 				<longitude>-76.87149785419362</longitude>
 				<latitude>42.86418551168757</latitude>
@@ -237,7 +349,7 @@
 				<range>1490.549178701904</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-76.86986017343207,42.86540015092638,0</coordinates>
@@ -254,7 +366,7 @@
 				<range>194.3084243068573</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-81.36165320577939,41.62919035793662,0</coordinates>
@@ -272,11 +384,112 @@
 				<range>301.1526949243551</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-81.36222425637195,41.6253006224157,0</coordinates>
 			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Caldwell County, Missouri</name>
+			<description>THe Prophet settled here for a time</description>
+			<LookAt>
+				<longitude>-93.91255146395405</longitude>
+				<latitude>39.57555777074654</latitude>
+				<altitude>0</altitude>
+				<heading>0.1109241608338012</heading>
+				<tilt>0</tilt>
+				<range>118851.4267656426</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-94.12458493788725,39.65764116526563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Far West temple site</name>
+			<description>This was the place dedicated and set apart for the building of a temple during the era of the saints in Far West, Missouri</description>
+			<LookAt>
+				<longitude>-94.13094510344955</longitude>
+				<latitude>39.67129361410358</latitude>
+				<altitude>0</altitude>
+				<heading>1.06737918001537</heading>
+				<tilt>0</tilt>
+				<range>171.8898705191402</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-94.13076625448903,39.67137454776237,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Liberty Jail</name>
+			<description>Joseph Smith was imprisoned in this jail for approximately five moths</description>
+			<LookAt>
+				<longitude>-94.42061799999156</longitude>
+				<latitude>39.24843299971148</latitude>
+				<altitude>0</altitude>
+				<heading>5.308345763362608e-012</heading>
+				<tilt>0</tilt>
+				<range>1000.000000620831</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-94.42061799999156,39.24843299971148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carthage Jail</name>
+			<description>In this jail the prophet and his brother Hyrum were martyered </description>
+			<LookAt>
+				<longitude>-91.13926072481658</longitude>
+				<latitude>40.41531538501369</latitude>
+				<altitude>0</altitude>
+				<heading>-2.228975811472475</heading>
+				<tilt>52.4010531106175</tilt>
+				<range>132.7934057655857</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-91.1393031883697,40.41527123715832,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Nauvoo House</name>
+			<description>This is where the Prophet and his brother were secretly buried after their death</description>
+			<LookAt>
+				<longitude>-91.391241833034</longitude>
+				<latitude>40.54002235402124</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01447013624061685</heading>
+				<tilt>25.91847156847189</tilt>
+				<range>307.0123285498771</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-91.39139975894901,40.54009731426596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Zion&apos;s Camp</name>
+			<description>This is the path that the members of Zion&apos;s took on their journey</description>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-94.40803677906619,39.26188907614597,0 -93.17419200523435,39.55405736246365,0 -92.63567690410285,39.5299649500098,0 -92.12045148174762,39.48909392605444,0 -91.56640829982851,39.50958894854207,0 -90.98140225902071,39.59868699469866,0 -90.57787303825225,39.66649711802275,0 -90.15495129944701,39.73220017890308,0 -89.70114676460564,39.79506528475314,0 -89.35572058072998,39.80482247073332,0 -88.85717018504417,39.78267504764316,0 -88.83642214477871,39.78170757175801,0 -88.48209510854743,39.78865097150889,0 -88.06452906061963,39.80730447064565,0 -87.734142853854,39.78146675150791,0 -87.42464670834781,39.755988064867,0 -87.33636569381834,39.70285584275874,0 -87.19417982427416,39.67042883831954,0 -87.03504490707591,39.70085834763511,0 -86.88519040306717,39.73968155434499,0 -86.60399601404268,39.73794312004581,0 -86.31685391582435,39.78333531529334,0 -86.10158014772702,39.8330927639958,0 -85.8252624279545,39.8622334618514,0 -85.51337103069272,39.83211584493465,0 -85.12908371952013,39.78766567806763,0 -84.86478348253883,39.78371611931941,0 -84.59042752275026,39.77037895758186,0 -84.31542471281392,39.75639071872244,0 -84.03754389589155,39.82264045146296,0 -84.02447653096174,39.83775546223102,0 -83.8001491400472,39.96493477355229,0 -83.78823903545774,39.97204548886021,0 -83.55220337613834,40.15539810323845,0 -83.19670352836184,40.31292350595422,0 -82.84827141676355,40.47114406304122,0 -82.54106291565267,40.62505335275368,0 -82.17359875800862,40.78213982897696,0 -81.8022405153349,40.92351181181996,0 -81.54648261475958,41.05983784368556,0 
+				</coordinates>
+			</LineString>
 		</Placemark>
 	</Folder>
 </Document>
