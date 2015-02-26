@@ -18,32 +18,23 @@
 	  
 	  var projection = ol.proj.get('EPSG:3857');
 	  
-	  var KirtlandTemple = new ol.layer.Vector({
-	  	source: new ol.source.KML({
-	  		projection: projection,
-	  		url: 'Kirtland Temple-03.kml'
-	  	})
+	  var background = new ol.layer.Tile({
+	  	source: new ol.source.MapQuest({layer: 'sat'})
 	  });
-	   
-	   var JSLife = new ol.layer.Vector({
+	  
+	  var JSLife = new ol.layer.Vector({
 	  	source: new ol.source.KML({
 	  		projection: projection,
 	  		url: 'Joseph Smith Life.kml'
 	  	})
 	  });
 	  
-	  
 	  var map = new ol.Map({
 		target: 'map',
-		layers: [
-		  new ol.layer.Tile({
-			source: new ol.source.MapQuest({layer: 'sat'})
-		  }),KirtlandTemple,JSLife
-		
-		],
+		layers: [background,JSLife],
 		view: new ol.View({
 		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
-		  zoom: 19
+		  zoom: 10
 		})
 	  });
     </script>
