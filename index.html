@@ -15,29 +15,7 @@
     <p></p><h1 style="text-align: center;">Viewer for Joseph Smith History</h1></p>
     <p><h3>This is an interactive website that allows the user to view places Joseph Smith lived and served during his life</h3></p>
     <div id="map" class="map"></div>
-    <script type="text/javascript">
-	  
-	  var projection = ol.proj.get('EPSG:3857');
-	  
-	  var background = new ol.layer.Tile({
-	  	source: new ol.source.MapQuest({layer: 'sat'})
-	  });
-	  
-	  var JSLife = new ol.layer.Vector({
-	  	source: new ol.source.KML({
-	  		projection: projection,
-	  		url: 'Joseph Smith Life.kml'
-	  	})
-	  });
-	  
-	  var map = new ol.Map({
-		target: 'map',
-		layers: [background,JSLife],
-		view: new ol.View({
-		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
-		  zoom: 5
-		})
-	  });
-    </script>
+    <script src="map.js"></script>
+    
   </body>
 </html>
