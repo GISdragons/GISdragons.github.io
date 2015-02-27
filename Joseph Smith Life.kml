@@ -5,10 +5,7 @@
 	<!-- testing a new marker style -->
 	<Style id="grnMarker">
 		<IconStyle>
-			<scale>
-				<x>0.1</x>
-				<y>0.1</y>
-			</scale>
+			<scale>0.01</scale>
 			<Icon>
 				<href>google-grn-placemarker.png</href>
 			</Icon>
