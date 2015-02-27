@@ -2,15 +2,17 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Joseph Smith Life Final.kml</name>
+	<!-- testing a new marker style -->
 	<Style id="grnMarker">
 		<IconStyle>
-			<scale>1.0</scale>
+			<scale>0.5</scale>
 			<Icon>
 				<href>google-grn-placemarker.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<!-- hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ -->
 		</IconStyle>
 	</Style>
+	<!-- end of testing new style -->
 	<Style id="s_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -240,7 +242,7 @@
 				<coordinates>-72.47307800016691,43.82343099972204,0</coordinates>
 			</Point>
 		</Placemark>
-		
+		<!-- testing the new type of placemark -->
 		<Placemark>
 			<name>Birthplace1</name>
 			<description><![CDATA[<a href="https://www.lds.org/locations/joseph-smith-birthplace-memorial">https://www.lds.org/locations/joseph-smith-birthplace-memorial</a><img src="https://www.google.com/search?q=birthplace+joseph+smith&source=lnms&tbm=isch&sa=X&ei=8bLsVN2VN8yZgwTk-IO4Bg&ved=0CAcQ_AUoAQ&biw=1680&bih=939#imgdii=_&imgrc=2l8RM15J189D6M%253A%3BKwDeG3hNZFvoDM%3Bhttp%253A%252F%252Fwww.willhiteweb.com%252Flds_historic_sights%252Fjoseph_smith_birthplace.jpg%3Bhttp%253A%252F%252Fwww.willhiteweb.com%252Flds_historic_sights%252Fjoseph_smith_birthplace_081.htm%3B585%3B390"/>]]></description>
@@ -259,7 +261,7 @@
 				<coordinates>-72.47307800016691,43.82343099972204,0</coordinates>
 			</Point>
 		</Placemark>
-		
+		<!-- end of test -->
 		<Placemark>
 			<name>Sacred Grove</name>
 			<LookAt>
