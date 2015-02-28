@@ -40,34 +40,29 @@
         	        })
       		});
       		
-      		// Used to display the dialog popup
-		var selectControl;
-		var selectedFeature;
-		selectControl = new OpenLayers.Control.SelectFeature(vectorLayer,
-		   {
-		     onSelect: onFeatureSelect,
-		      onUnselect: onFeatureUnselect 
-		    });
-		   map.addControl(selectControl);
-    		selectControl.activate();
-    		function onPopupClose(evt) {
-    selectControl.unselect(selectedFeature);
-}
-function onPopupFeatureSelect(feature) {
-    selectedFeature = feature;
-    popup = new OpenLayers.Popup.FramedCloud("chicken",
-        feature.geometry.getBounds().getCenterLonLat(),
-        null, feature.name, null, true, onPopupClose);
-    popup.panMapIfOutOfView = true;
-    popup.autoSize = true;
-    feature.popup = popup;
-    map.addPopup(popup);
-}
-function onPopupFeatureUnselect(feature) {
-    map.removePopup(feature.popup);
-    feature.popup.destroy();
-    feature.popup = null;
-}
+      		var vector = new OpenLayers.Layer.Vector("Points",{
+      			eventListeners:{
+      				'featureselected':function(evt){
+      					var feature = evt.feature;
+      					var popup = new OpenLayers.POpup.FrameCloud("popup",
+      					    OpenLayers.LonLat.fromString(feature.geometry.toShortString()),
+      					    null,
+      					    "<div style='font-size:.8em'>Feature: " + feature.id +"<br>Foo: " + feature.attributes.foo+"</div>",
+      					    null,
+      					    true
+      				);
+      				feature.popup = popup;
+      				map.addPopup(popup);
+      				},
+      				'featureunselcted':function(evt){
+      					var feature = evt.feature;
+      					map.removePopup(feature.popup);
+      					feature.popup.destroy();
+      					feature.popup=null:
+      				}
+      			}
+      		});
+      	
        </script>
        <script src="map.js"></script>
     
