@@ -2,37 +2,6 @@
 // License: https://raw.githubusercontent.com/openlayers/ol3/master/LICENSE.md
 // Version: v3.1.1
 
-// Create a popup overlay which will be used to display feature info
-var popup = new ol.Overlay.Popup();
-map.addOverlay(popup);
-
-// Add an event handler for the map "singleclick" event
-map.on('singleclick', function(evt) {
-
-    // Hide existing popup and reset it's offset
-    popup.hide();
-    popup.setOffset([0, 0]);
-
-    // Attempt to find a feature in one of the visible vector layers
-    var feature = map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
-        return feature;
-    });
-
-    if (feature) {
-
-        var coord = feature.getGeometry().getCoordinates();
-        var props = feature.getProperties();
-        var info = "<h2><a href='" + props.caseurl + "'>" + props.casereference + "</a></h2>";
-            info += "<p>" + props.locationtext + "</p>";
-            info += "<p>Status: " + props.status + " " + props.statusdesc + "</p>";
-        // Offset the popup so it points at the middle of the marker not the tip
-        popup.setOffset([0, -22]);
-        popup.show(coord, info);
-
-    }
-
-});
-
 (function (root, factory) {
     if (typeof define === "function" && define.amd) {
         define([], factory);
