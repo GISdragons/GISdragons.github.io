@@ -281,6 +281,18 @@
 		</Placemark>
 		<Placemark>
 			<name>Topsfield, MA</name>
+			<description>
+				<![CDATA[
+					<table width=400>
+						<tr><td><p>Thanks to <b>Villaman</b></p></td></tr>
+						<tr><td><b><br>Topsfield,MA</br></b></td></tr>
+						<tr><td>
+							<p>This is the place where Joseph Smith's ancestors lived</p>
+							<p><center><b>Topsfield,MA</b></center></p>
+						</td></tr>
+					</table>
+					]]
+			</description>
 			<description>Five generations of Smiths lived here</description>
 			<LookAt>
 				<longitude>-70.94853687490027</longitude>
@@ -292,6 +304,7 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-70.94853687490028,42.63787500650474,0</coordinates>
