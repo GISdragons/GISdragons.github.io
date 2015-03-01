@@ -44,7 +44,7 @@
       			eventListeners:{
       				'featureselected':function(evt){
       					var feature = evt.feature;
-      					var popup = new OpenLayers.POpup.FrameCloud("popup",
+      					var popup = new OpenLayers.Popup.FrameCloud("popup",
       					    OpenLayers.LonLat.fromString(feature.geometry.toShortString()),
       					    null,
       					    "<div style='font-size:.8em'>Feature: " + feature.id +"<br>Foo: " + feature.attributes.foo+"</div>"  
