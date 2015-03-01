@@ -47,7 +47,7 @@
       					var popup = new OpenLayers.POpup.FrameCloud("popup",
       					    OpenLayers.LonLat.fromString(feature.geometry.toShortString()),
       					    null,
-      					    "<div style='font-size:.8em'>Feature: " + feature.id +"<br>Foo: " + feature.attributes.foo+"</div>",
+      					    "<div style='font-size:.8em'>Feature: " + feature.id +"<br>Foo: " + feature.attributes.foo+"</div>"  
       					    null,
       					    true
       				);
@@ -58,7 +58,7 @@
       					var feature = evt.feature;
       					map.removePopup(feature.popup);
       					feature.popup.destroy();
-      					feature.popup=null:
+      					feature.popup=null;
       				}
       			}
       		});
