@@ -37,6 +37,7 @@ var JSLife = new ol.layer.Vector({
 /** Creating the Map */
 var map = new ol.Map({
 	target: 'map',
+	overlays: [overlay],
 	layers: [background,JSLife],
 	view: new ol.View({
 		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
