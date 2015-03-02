@@ -29,30 +29,7 @@
 	                    projection: projection,
                 	    url: 'Joseph Smith Life.kml'
         		})
-    		});	
-	
-		var vector = new OpenLayers.Layer.Vector("Points",{
-      			eventListeners:{
-      				'featureselected':function(evt){
-      					var feature = evt.feature;
-      					var popup = new OpenLayers.Popup.FrameCloud("popup",
-      					    OpenLayers.LonLat.fromString(feature.geometry.toShortString()),
-      					    null,
-      					    "<div style='font-size:.8em'>Feature: " + feature.id +"<br>Foo: " + feature.attributes.foo+"</div>"  
-      					    null,
-      					    true
-      					),
-      				feature.popup = popup,
-      				map.addPopup(popup),
-      				};
-      				'featureunselcted':function(evt){
-      					var feature = evt.feature,
-	      					map.removePopup(feature.popup),
-	      					feature.popup.destroy(),
-	      					feature.popup=null,
-      				};
-      			};
-      		});
+    		});
 	
 	        var map = new ol.Map({
           	target: 'map',
@@ -63,8 +40,6 @@
         	        })
       		});
       		
-      		
-      	
        </script>
        <script src="map.js"></script>
     
