@@ -28,22 +28,18 @@ var overlay = new ol.Overlay({
 var projection = ol.proj.get('EPSG:3857');
 
 //Here we are declaring the raster layer as a separate object to put in the map later
-var rasterLayer = new ol.layer.Tile({
-  source: new ol.source.TileJSON({
-	url: 'http://api.tiles.mapbox.com/v3/' +
-		'mapbox.natural-earth-hypso-bathy.jsonp',
-	crossOrigin: 'anonymous'
-  })
+var background = new ol.layer.Tile({
+source: new ol.source.MapQuest({layer: 'sat'})
 });
+
       
 
 //Let's create another layer from a kml file. We'll call it "vector" but it could be called anything
-var vectorLayer = new ol.layer.Vector({
-	source: new ol.source.KML({
-		projection: projection,
-		//normally this kml file would be sitting on your server
-		url: 'Joseph Smith Life.kml'
-	})	
+var JSLife = new ol.layer.Vector({
+source: new ol.source.KML({
+projection: projection,
+url: 'Joseph Smith Life.kml'
+})
 });
 		
 /**
