@@ -1,9 +1,9 @@
 /** Adding elements that make the pop-up */
-/**
+
 var container = document.getElementById('popup');
 var content = document.getElementById('popup-content');
 var closer = document.getElementById('popup-closer');
-*/
+
 /** Adding a click handler to hide the popup
     just in case there is one already existing */
 /**closer.onclick = function() {
