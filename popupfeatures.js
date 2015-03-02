@@ -50,7 +50,7 @@ var vectorLayer = new ol.layer.Vector({
  * Create the map.
  */
 var map = new ol.Map({
-  layers: [rasterLayer, vectorLayer],
+  layers: [background, JSLife],
   overlays: [overlay],
   target: 'map',
   view: new ol.View({
