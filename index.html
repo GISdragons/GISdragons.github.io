@@ -31,16 +31,7 @@
         		})
     		});	
 	
-	        var map = new ol.Map({
-          	target: 'map',
-          	layers: [background,JSLife],
-          	view: new ol.View({
-               	  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
-            	  zoom: 5
-        	        })
-      		});
-      		
-      		var vector = new OpenLayers.Layer.Vector("Points",{
+		var vector = new OpenLayers.Layer.Vector("Points",{
       			eventListeners:{
       				'featureselected':function(evt){
       					var feature = evt.feature;
@@ -50,18 +41,29 @@
       					    "<div style='font-size:.8em'>Feature: " + feature.id +"<br>Foo: " + feature.attributes.foo+"</div>"  
       					    null,
       					    true
-      				);
-      				feature.popup = popup;
-      				map.addPopup(popup);
-      				},
+      					),
+      				feature.popup = popup,
+      				map.addPopup(popup),
+      				};
       				'featureunselcted':function(evt){
-      					var feature = evt.feature;
-      					map.removePopup(feature.popup);
-      					feature.popup.destroy();
-      					feature.popup=null;
-      				}
-      			}
+      					var feature = evt.feature,
+	      					map.removePopup(feature.popup),
+	      					feature.popup.destroy(),
+	      					feature.popup=null,
+      				};
+      			};
       		});
+	
+	        var map = new ol.Map({
+          	target: 'map',
+          	layers: [background,JSLife],
+          	view: new ol.View({
+               	  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
+            	  zoom: 5
+        	        })
+      		});
+      		
+      		
       	
        </script>
        <script src="map.js"></script>
