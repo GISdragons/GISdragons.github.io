@@ -6,7 +6,6 @@ var closer = document.getElementById('popup-closer');
 
 /** Adding a click handler to hide the popup
     just in case there is one already existing */
-
 closer.onclick = function() {
 	overlay.setPosition(undefined);
 	closer.blur();
@@ -36,9 +35,9 @@ var JSLife = new ol.layer.Vector({
 
 /** Creating the Map */
 var map = new ol.Map({
-	target: 'map',
-	overlays: [overlay],
 	layers: [background,JSLife],
+	overlays: [overlay],
+	target: 'map',
 	view: new ol.View({
 		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
 		  zoom: 5
@@ -56,7 +55,7 @@ if (feature) {
 	var geometry = feature.getGeometry();
 	var coord = geometry.getCoordinates();
 	overlay.setPosition(coord);
-	var displaycontent = feature.get('description');
+	var displaycontent = feature.get('name');
 	content.innerHTML = displaycontent;
 	}
 });
