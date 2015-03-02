@@ -15,7 +15,7 @@ closer.onclick = function() {
 
 /** Adding elements that make the pop-up */
 var overlay = new ol.Overlay({
-	element:Container
+	element: container
 )};
 
 /** Here we are declaring the projection object for Web Mercator */
