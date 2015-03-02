@@ -282,18 +282,8 @@
 		<Placemark>
 			<name>Topsfield, MA</name>
 			<description>
-				<! [CDATA[
-					<table width=400>
-						<tr><td><p>Thanks to <b>Villaman</b></p></td></tr>
-						<tr><td><br><b>Topsfield,MA</b></br></td></tr>
-						<tr><td>
-							<p>This is the place where Joseph Smith's ancestors lived</p>
-							<p><center><b>Topsfield,MA</b></center></p>
-							<img src="http://apod.nasa.gov/apod/image/0312/02mantar_feresten.jpg">
-							<p>More <a href="http://apod.nasa.gov/apod/ap031206.html">here.</a></p>
-						</td></tr>
-					</table>
-					]]>
+			<![CDATA[<p><img src="http://www.sundials.co.uk/pix/gosport.jpg"></p>
+			Image source:<a href="http://www.sundials.co.uk/pix/gosport.jpg">www.sundials.co.uk</a>]]>
 			</description>
 			<description>Five generations of Smiths lived here</description>
 			<LookAt>
