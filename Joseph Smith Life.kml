@@ -288,7 +288,7 @@
 				<range>1000.000012294738</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#grnMarker</styleUrl>
+			<styleUrl>#sacredgrove</styleUrl>
 			<!-- styleUrl>#m_ylw-pushpin0</styleUrl -->
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
