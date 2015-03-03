@@ -271,6 +271,7 @@
 		<Placemark>
 			<name>Sacred Grove</name>
 			<description>
+				<![CDATA[The Sacred Grove
 				<p>In the Spring of 1820, Joseph Smith went into
 				a grove of trees to know which church was true.
 				It was here that Joseph Smith had the First Vision,
@@ -278,7 +279,7 @@
 				He was told none of the churches were true at the
 				time. He was told he would be an instrumental part of
 				restoring the fulness of the gospel to the earth again.</p>
-				<p><img src="http://www.ldshistorysites.com/wp-content/uploads/2012/02/Sacred-Grove-061.jpg"></img></p>
+				<p><img src="http://www.ldshistorysites.com/wp-content/uploads/2012/02/Sacred-Grove-061.jpg" width="300" hight="350"></p>]]>
 			</description>
 			<LookAt>
 				<longitude>-77.24429599989649</longitude>
