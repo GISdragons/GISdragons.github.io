@@ -14,13 +14,13 @@
 		</IconStyle>
 	</Style>
 	<!-- end of testing new style -->
-	<Style id="s_ylw-pushpin3">
+	<Style id="nauvootemple">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>nauvootemple.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<scale>0.1</scale>
 		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin1">
@@ -395,7 +395,7 @@
 				<range>6464.223210140332</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<styleUrl>#nauvootemple</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-91.38461437874106,40.54986612000675,0</coordinates>
