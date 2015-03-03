@@ -70,7 +70,7 @@ map.on('click', function(evt) {
 	var geometry = feature.getGeometry();
 	var coord = geometry.getCoordinates();
 	overlay.setPosition(coord);
-	var displaycontent = feature.get('description');
+	var displaycontent = feature.get('name');
 	content.innerHTML = displaycontent;
   }
 });
