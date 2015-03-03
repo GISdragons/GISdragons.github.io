@@ -224,9 +224,10 @@
 	<Folder>
 		<name>Joseph Smith Life</name>
 		<open>1</open>
+		<!-- changed description for Birthplace-->
 		<Placemark>
 			<name>Birthplace</name>
-			<description><![CDATA[<a href="https://www.lds.org/locations/joseph-smith-birthplace-memorial">https://www.lds.org/locations/joseph-smith-birthplace-memorial</a><img src="https://www.google.com/search?q=birthplace+joseph+smith&source=lnms&tbm=isch&sa=X&ei=8bLsVN2VN8yZgwTk-IO4Bg&ved=0CAcQ_AUoAQ&biw=1680&bih=939#imgdii=_&imgrc=2l8RM15J189D6M%253A%3BKwDeG3hNZFvoDM%3Bhttp%253A%252F%252Fwww.willhiteweb.com%252Flds_historic_sights%252Fjoseph_smith_birthplace.jpg%3Bhttp%253A%252F%252Fwww.willhiteweb.com%252Flds_historic_sights%252Fjoseph_smith_birthplace_081.htm%3B585%3B390"/>]]></description>
+			<description><p>Joseph Smith was born on <br>December 23, 1805 in Sharon, Vermont</p></description>
 			<LookAt>
 				<longitude>-72.47307800016691</longitude>
 				<latitude>43.82343099972204</latitude>
@@ -262,8 +263,18 @@
 			</Point>
 		</Placemark>
 		end of test -->
+		<!-- changed description for the Sacred Grove-->
 		<Placemark>
 			<name>Sacred Grove</name>
+			<description>
+				<p>In the Spring of 1820, Joseph Smith went into <br>
+				a grove of trees to know which church was true.<br>
+				It was here that Joseph Smith had the First Vision,<br>
+				where he saw God, the Father, and His son, Jesus Christ<br>
+				He was told none of the churches were true at the <br>
+				time. He was told he would be an instrumental part of<br>
+				restoring the fulness of the gospel to the earth again.</p>
+			</br></description>
 			<LookAt>
 				<longitude>-77.24429599989649</longitude>
 				<latitude>43.04053300008663</latitude>
