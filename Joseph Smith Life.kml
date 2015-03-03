@@ -227,7 +227,10 @@
 		<!-- changed description for Birthplace-->
 		<Placemark>
 			<name>Birthplace</name>
-			<description><p>Joseph Smith was born on <br>December 23, 1805 in Sharon, Vermont</p></description>
+			<description>
+				<p>Joseph Smith was born on <br>
+				December 23, 1805 in Sharon, Vermont</p>
+			</description>
 			<LookAt>
 				<longitude>-72.47307800016691</longitude>
 				<latitude>43.82343099972204</latitude>
@@ -274,7 +277,7 @@
 				He was told none of the churches were true at the <br>
 				time. He was told he would be an instrumental part of<br>
 				restoring the fulness of the gospel to the earth again.</p>
-			</br></description>
+			</description>
 			<LookAt>
 				<longitude>-77.24429599989649</longitude>
 				<latitude>43.04053300008663</latitude>
