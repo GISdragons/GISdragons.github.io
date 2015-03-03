@@ -228,8 +228,8 @@
 		<Placemark>
 			<name>Birthplace</name>
 			<description>
-				<p>Joseph Smith was born on <br>
-				December 23, 1805 in Sharon, Vermont</p>
+				Joseph Smith was born on
+				December 23, 1805 in Sharon, Vermont
 			</description>
 			<LookAt>
 				<longitude>-72.47307800016691</longitude>
@@ -270,13 +270,13 @@
 		<Placemark>
 			<name>Sacred Grove</name>
 			<description>
-				<p>In the Spring of 1820, Joseph Smith went into <br>
-				a grove of trees to know which church was true.<br>
-				It was here that Joseph Smith had the First Vision,<br>
-				where he saw God, the Father, and His son, Jesus Christ<br>
-				He was told none of the churches were true at the <br>
-				time. He was told he would be an instrumental part of<br>
-				restoring the fulness of the gospel to the earth again.</p>
+				In the Spring of 1820, Joseph Smith went into
+				a grove of trees to know which church was true.
+				It was here that Joseph Smith had the First Vision,
+				where he saw God, the Father, and His son, Jesus Christ
+				He was told none of the churches were true at the
+				time. He was told he would be an instrumental part of
+				restoring the fulness of the gospel to the earth again.
 			</description>
 			<LookAt>
 				<longitude>-77.24429599989649</longitude>
