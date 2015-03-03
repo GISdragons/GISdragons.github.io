@@ -14,13 +14,13 @@
 		</IconStyle>
 	</Style>
 	<!-- end of testing new style -->
-	<Style id="sacredgrove">
+	<Style id="s_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>sacredgrove.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
-			<scale>.5</scale>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin1">
