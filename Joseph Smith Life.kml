@@ -287,7 +287,8 @@
 				<range>1000.000012294738</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#grnMarker</styleUrl>
+			<!-- styleUrl>#m_ylw-pushpin0</styleUrl -->
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-77.24429599989649,43.04053300008663,0</coordinates>
