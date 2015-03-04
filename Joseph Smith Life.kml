@@ -20,7 +20,7 @@
 			<Icon>
 				<href>nauvootemple.png</href>
 			</Icon>
-			<scale>0.1</scale>
+			<scale>0.01</scale>
 		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin1">
