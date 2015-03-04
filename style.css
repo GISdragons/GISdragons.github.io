@@ -7,6 +7,9 @@ http://www.tooplate.com/view/2050-blue-spark
 	margin:0px;padding:0px;
 	width:100%;
 	border:10px solid #d4af37;
+	/*hopefully will make the page centered again*/
+	margin-left:10px;
+    	margin-right:10px;
 	
 	-moz-border-radius-bottomleft:0px;
 	-webkit-border-bottom-left-radius:0px;
