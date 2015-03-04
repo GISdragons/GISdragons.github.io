@@ -5,7 +5,7 @@ http://www.tooplate.com/view/2050-blue-spark
 
 .CSSTableGenerator {
 	margin:0px;padding:0px;
-	width:100%;
+	width:calc(100% - 18px);
 	border:10px solid #d4af37;
 	/*hopefully will make the page centered again*/
 	/*margin-left:10px;*/
