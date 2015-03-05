@@ -52,7 +52,7 @@ function dropdown_clicked(theplace)
 		if (layers[i].name==theplace)
 		{
 			layers[i].setVisible(true);
-			map.getView().fitExtent(layers[i].getSource().getExtent(), map.g
+			map.getView().fitExtent(layers[i].getSource().getExtent(), map.getSize());
 		}
 		else
 		{
