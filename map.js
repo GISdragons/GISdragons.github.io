@@ -44,6 +44,27 @@ var map = new ol.Map({
 	})
 });
 
+function dropdown_clicked(theplace)
+{
+	layers=map.getLayers().a;
+	for (var i=1; i <=16; i++)
+	{
+		if (layers[i].name==theplace)
+		{
+			layers[i].setVisible(true);
+			map.getView().fitExtent(layers[i].getSource().getExtent(), map.g
+		}
+		else
+		{
+			layers[i].setVisible(false);
+		}
+	}
+	
+	if (theplace=="none")
+	{
+		ZoomToMaxExtent();
+	}
+}
 /** Trying to find a fetaure on a "click" event */
 /** We first try to get a feature at the point of interest */
 /**var feature = map.forEachFeatureAtPixel(evt.pixel,
