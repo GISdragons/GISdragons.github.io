@@ -47,7 +47,7 @@ var map = new ol.Map({
 function dropdown_clicked(theplace)
 {
 	layers=map.getLayers().a;
-	for (var i=1; i <=16; i++)
+	for (var i=1; i <=17; i++)
 	{
 		if (layers[i].name==theplace)
 		{
