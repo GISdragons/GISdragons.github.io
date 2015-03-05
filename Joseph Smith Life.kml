@@ -351,7 +351,7 @@
 		<Placemark>
 			<name>Zion&apos;s Camp</name>
 			<description>This is the path that the members of Zion&apos;s took on their journey</description>
-			<styleUrl>ZionsCampPath</styleUrl>
+			<styleUrl>#ZionsCampPath</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -362,7 +362,7 @@
 		<Placemark>
 			<name>Zion&apos;s Camp</name>
 			<description>This is the path that the members of Zion&apos;s took on their journey</description>
-			<styleUrl>ZionsCampPath2</styleUrl>
+			<styleUrl>#ZionsCampPath2</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
