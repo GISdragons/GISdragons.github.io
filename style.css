@@ -222,6 +222,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	margin: 3px 0 0 20px; 
 }
 
+/* I don't think we need this stuff
 .tooplate_list { 
 	margin: 20px 0 20px 10px; 
 	padding: 0; 
@@ -263,6 +264,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	height: 50px;
 	padding: 40px 20px 10px;
 }
+*/
 
 #site_title { 
 	float: left; 
