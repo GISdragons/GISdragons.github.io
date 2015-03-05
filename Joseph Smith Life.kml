@@ -199,7 +199,7 @@
 				<range>6464.223210140332</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#nauvootemple</styleUrl>
+			<styleUrl>#bluedot</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-91.38461437874106,40.54986612000675,0</coordinates>
