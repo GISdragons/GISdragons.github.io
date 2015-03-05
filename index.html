@@ -11,7 +11,26 @@
     <p></p><h1>Viewer for Joseph Smith History</h1></p>
     <p><h3>This is an interactive website that allows the user to view places Joseph Smith lived and served during his life</h3></p>
     
-    <div id="map" class="map">
+    Joseph Smith sites:
+    <form>
+      <select onchange="dropdown_clicked(this.value);">
+		  	<option value='1'>Shelley, Idaho</option>
+		  	<option value='7'>San Dimas, California #1</option>
+		  	<option value='8'>San Dimas, California #2</option>
+		  	<option value='2'>Hailey, Idaho #1</option> 
+		  	<option value='5'>Hailey, Idaho #2</option> 
+		  	<option value='10'>Providence, Utah #1</option>
+		  	<option value='3'>Edinburgh, Scotland</option>
+		  	<option value='11'>USU Aggie Village</option>
+		  	<option value='9'>Providence, Utah #2</option>
+		   	<option value='12'>USU Townhouses</option>
+		  	<option value='0'>North Logan, Utah</option>
+	  		<option value='4'>Ammon, Idaho</option>
+	  		<option value='6'>Mapleton, Utah</option>
+	  		
+		</select>
+    </form>
+     <div id="map" class="map">
     	<div id="popup" class="ol-popup">
     		<a href="#" id="popup-closer" class="ol-popup-closer"></a>
     		<div id="popup-content"></div>
