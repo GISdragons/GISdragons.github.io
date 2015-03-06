@@ -61,27 +61,6 @@
 				<coordinates>-72.47307800016691,43.82343099972204,0</coordinates>
 			</Point>
 		</Placemark>
-		<!-- testing the new type of placemark
-		<Placemark>
-			<name>Birthplace1</name>
-			<description><![CDATA[<a href="https://www.lds.org/locations/joseph-smith-birthplace-memorial">https://www.lds.org/locations/joseph-smith-birthplace-memorial</a><img src="https://www.google.com/search?q=birthplace+joseph+smith&source=lnms&tbm=isch&sa=X&ei=8bLsVN2VN8yZgwTk-IO4Bg&ved=0CAcQ_AUoAQ&biw=1680&bih=939#imgdii=_&imgrc=2l8RM15J189D6M%253A%3BKwDeG3hNZFvoDM%3Bhttp%253A%252F%252Fwww.willhiteweb.com%252Flds_historic_sights%252Fjoseph_smith_birthplace.jpg%3Bhttp%253A%252F%252Fwww.willhiteweb.com%252Flds_historic_sights%252Fjoseph_smith_birthplace_081.htm%3B585%3B390"/>]]></description>
-			<LookAt>
-				<longitude>-72.47307800016691</longitude>
-				<latitude>43.82343099972204</latitude>
-				<altitude>0</altitude>
-				<heading>-1.155638640736361e-010</heading>
-				<tilt>0</tilt>
-				<range>1000.000103842226</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#grnMarker</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-72.47307800016691,43.82343099972204,0</coordinates>
-			</Point>
-		</Placemark>
-		end of test -->
-		<!-- changed description for the Sacred Grove-->
 		<Placemark>
 			<name>Sacred Grove</name>
 			<description>
