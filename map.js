@@ -44,50 +44,16 @@ var map = new ol.Map({
 	})
 });
 
-function dropdown_clicked(theplace)
-{
-	layers=map.getLayers().a;
-	for (var i=1; i <=17; i++)
-	{
-		if (layers[i].name==theplace)
-		{
-			layers[i].setVisible(true);
-			map.getView().fitExtent(layers[i].getSource().getExtent(), map.getSize());
-		}
-		else
-		{
-			layers[i].setVisible(false);
-		}
-	}
-	
-	if (theplace=="none")
-	{
-		ZoomToMaxExtent();
-	}
-}
-
-function button_clicked(theplace)
-{
-	layers=map.getLayers().a;
-	for (var i=1; i <=17; i++)
-	{
-		if (layers[i].name==theplace)
-		{
-			layers[i].setVisible(true);
-			map.getView().fitExtent(layers[i].getSource().getExtent(), map.getSize());
-		}
-		else
-		{
-			layers[i].setVisible(false);
-		}
-	}
-	
-	if (theplace=="none")
-	{
-		ZoomToMaxExtent();
-	}
-}
-
+function dropdown_clicked(ID) {
+	myFeature = vectorLayer.getSource().getFeatures()[ID];
+	myCoords = myFeature.getGeometry().getCoordinates();
+	myView = map.getView();
+	myView.setCenter(myCoords);
+	myView.setZoom(15);
+	vectorLayer.getSource().getFeatures()[ID]
+	overlay.setPosition(myCoords);
+	var displaycontent = myFeature.get('description');
+	content.innerHTML = displaycontent;
 
 /** Trying to find a fetaure on a "click" event */
 /** We first try to get a feature at the point of interest */
