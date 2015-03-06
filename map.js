@@ -54,6 +54,7 @@ function dropdown_clicked(ID) {
 	overlay.setPosition(myCoords);
 	var displaycontent = myFeature.get('description');
 	content.innerHTML = displaycontent;
+}
 
 /** Trying to find a fetaure on a "click" event */
 /** We first try to get a feature at the point of interest */
