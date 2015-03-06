@@ -68,24 +68,27 @@ function dropdown_clicked(theplace)
 
 function button_clicked(theplace)
 {
-layers=map.getLayers().a;
-for (var i=1; i <=17; i++)
-{
-if (layers[i].name==theplace)
-{
-layers[i].setVisible(true);
-map.getView().fitExtent(layers[i].getSource().getExtent(), map.getSize());
+	layers=map.getLayers().a;
+	for (var i=1; i <=17; i++)
+	{
+		if (layers[i].name==theplace)
+		{
+			layers[i].setVisible(true);
+			map.getView().fitExtent(layers[i].getSource().getExtent(), map.getSize());
+		}
+		else
+		{
+			layers[i].setVisible(false);
+		}
+	}
+	
+	if (theplace=="none")
+	{
+		ZoomToMaxExtent();
+	}
 }
-else
-{
-layers[i].setVisible(false);
-}
-}
-if (theplace=="none")
-{
-ZoomToMaxExtent();
-}
-}
+
+
 /** Trying to find a fetaure on a "click" event */
 /** We first try to get a feature at the point of interest */
 /**var feature = map.forEachFeatureAtPixel(evt.pixel,
