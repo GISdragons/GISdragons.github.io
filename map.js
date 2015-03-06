@@ -70,7 +70,7 @@ function dropdown_clicked(ID) {
 	myView = map.getView();
 	myView.setCenter(myCoords);
 	myView.setZoom(15);
-	vectorLayer.getSource().getFeatures()[ID]
+	JSLife.getSource().getFeatures()[ID]
 	overlay.setPosition(myCoords);
 	var displaycontent = myFeature.get('description');
 	content.innerHTML = displaycontent;
