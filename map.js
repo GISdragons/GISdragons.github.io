@@ -33,17 +33,6 @@ var JSLife = new ol.layer.Vector({
 	})
 });
 
-/** Creating the Map */
-var map = new ol.Map({
-	target: 'map',
-	layers: [background,JSLife],
-	/**overlays: [overlay],*/
-	view: new ol.View({
-		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
-		  zoom: 5
-	})
-});
-
 function dropdown_clicked(ID) {
 	myFeature = vectorLayer.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
@@ -55,6 +44,17 @@ function dropdown_clicked(ID) {
 	var displaycontent = myFeature.get('description');
 	content.innerHTML = displaycontent;
 }
+
+/** Creating the Map */
+var map = new ol.Map({
+	target: 'map',
+	layers: [background,JSLife],
+	/**overlays: [overlay],*/
+	view: new ol.View({
+		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
+		  zoom: 5
+	})
+});
 
 /** Trying to find a fetaure on a "click" event */
 /** We first try to get a feature at the point of interest */
