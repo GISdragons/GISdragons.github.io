@@ -8,7 +8,7 @@
 			<Icon>
 				<href>bluedot.png</href>
 			</Icon>
-			<scale>0.006</scale>
+			<scale>0.003</scale>
 			
 			<!-- hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ -->
 		</IconStyle>
