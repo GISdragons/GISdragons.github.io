@@ -45,6 +45,25 @@ var map = new ol.Map({
 		  zoom: 5
 	})
 });
+
+map.on('click', function(evt) {
+  
+  //Try to get a feature at the point of interest
+  var feature = map.forEachFeatureAtPixel(evt.pixel,
+	  function(feature, layer) {
+		return feature;
+	  });
+	  
+  //if we found a feature then create and show the popup.
+  if (feature) {
+	var geometry = feature.getGeometry();
+	var coord = geometry.getCoordinates();
+	overlay.setPosition(coord);
+	var displaycontent = feature.get('description');
+	content.innerHTML = displaycontent;
+  }
+});
+
 function dropdown_clicked(ID) {
 	myFeature = vectorLayer.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
