@@ -22,7 +22,7 @@ var projection = ol.proj.get('EPSG:3857');
 
 /**Here we are declaring the background as a separate object to put in the map */
 var background = new ol.layer.Tile({
-	        	    source: new ol.source.MapQuest({layer: 'sat'})
+    source: new ol.source.MapQuest({layer: 'sat'})
 });
 
 /** Here we create the layer for the JS information */
@@ -39,7 +39,6 @@ var JSLife = new ol.layer.Vector({
 var map = new ol.Map({
 	target: 'map',
 	layers: [background,JSLife],
-	/**overlays: [overlay],*/
 	view: new ol.View({
 		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
 		  zoom: 5
@@ -65,6 +64,18 @@ var map = new ol.Map({
 // });
 
 function dropdown_clicked(ID) {
+	myFeature = JSLife.getSource().getFeatures()[ID];
+	myCoords = myFeature.getGeometry().getCoordinates();
+	myView = map.getView();
+	myView.setCenter(myCoords);
+	myView.setZoom(15);
+	JSLife.getSource().getFeatures()[ID]
+	overlay.setPosition(myCoords);
+	var displaycontent = myFeature.get('description');
+	content.innerHTML = displaycontent;
+}
+
+function button_clicked(ID) {
 	myFeature = JSLife.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
 	myView = map.getView();
