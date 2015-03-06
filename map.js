@@ -46,7 +46,7 @@ var map = new ol.Map({
 	})
 });
 
-map.on('click', function(evt) {
+//  map.on('click', function(evt) {
   
 //   //Try to get a feature at the point of interest
 //   var feature = map.forEachFeatureAtPixel(evt.pixel,
