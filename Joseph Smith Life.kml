@@ -112,7 +112,7 @@
 		<Placemark>
 			<name>Topsfield, MA</name>
 			<description><![CDATA[<p><img src="http://www.sundials.co.uk/pix/gosport.jpg"></p>
-Image source:<a href="http://www.sundials.co.uk/pix/gosport.jpg">www.sundials.co.uk</a>]]></description>
+Image source:<a href="http://www.sundials.co.uk/pix/gosport.jpg" width="50" >www.sundials.co.uk</a>]]></description>
 			<LookAt>
 				<longitude>-70.94853687490027</longitude>
 				<latitude>42.63787500650474</latitude>
