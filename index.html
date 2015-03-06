@@ -33,27 +33,26 @@
 	</select>
     </form>
     <form>
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="none" value="None">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="birthplace" value="Birthplace">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="sacredgrove" value ="Sacred Grove">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="topsfield" value="Topsfield, MA">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="smithlogcabin" value="Smith Log Cabin">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="aaronic" value="Aaronic Priedthood Restoration">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="melchizedek" value="Melchizedek Priesthood Restoration">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="nauvoo" value="Nauvoo, Illinois">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="nauvootemple" value="Nauvoo Temple">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="whitmerhouse" value="Peter Whitmer house">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="whitneystore" value="Newell K Whitney Store">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="kirtlandtemple" value="Kirtland Temple">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="caldwellcounty" value="Caldwell County, MO">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="farwesttemple" value="Far West temple">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="washington" value= "Washington, D.C.">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="zionscamp" value="Zion's Camp">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="libertyjail" value="Liberty Jail">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="carthagejail" value="Carthage Jail">
-            <input type="button" onClick="dropdown_clicked(this.id)"  id="nauvoohouse" value="The Nauvoo House">
+           <select onchange="button_clicked(this.value);">
+	  	<option value="1">Birthplace</option>
+	  	<option value="2">Sacred Grove</option>
+	  	<option value="3">Topsfield, MA</option>
+	  	<option value="4">Smith Log Cabin</option> 
+	  	<option value="5">Aaronic Priesthood Restoration</option> 
+	  	<option value="6">Melchizedek Priesthood Restoration</option>
+	  	<option value="7">Nauvoo, Illinois</option>
+	  	<option value="8">Nauvoo Temple</option>
+	  	<option value="9">Peter Whitmer house</option>
+	   	<option value="10">Newell K Whitney Store</option>
+	  	<option value="11">Kirtland Temple</option>
+	  	<option value="12">Caldwell County, MO</option>
+	  	<option value="13">Far West temple site</option>
+	  	<option value="14">Liberty Jail</option>
+	  	<option value="15">Carthage Jail</option>
+	  	<option value="16">The Nauvoo House</option>
+	</select>
     </form>
-    <div id="map"></div>
+    <div id="map" class="map"></div>
     <div id="popup" class="ol-popup">
     	<a href="#" id="popup-closer" class="ol-popup-closer"></a>
     	<div id="popup-content"></div>
