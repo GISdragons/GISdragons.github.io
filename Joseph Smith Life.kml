@@ -13,6 +13,16 @@
 			<!-- hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ -->
 		</IconStyle>
 	</Style>
+	<Style id="nauvootemple">
+		<IconStyle>
+			<Icon>
+				<href>nauvootemple.png</href>
+			</Icon>
+			<scale>0.003</scale>
+			
+			<!-- hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ -->
+		</IconStyle>
+	</Style>
 	<Style id="ZionsCampPath">
 		<LineStyle>
 			<Color>7f0000ff</Color>
@@ -199,7 +209,7 @@
 				<range>6464.223210140332</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#bluedot</styleUrl>
+			<styleUrl>#nauvootemple</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-91.38461437874106,40.54986612000675,0</coordinates>
