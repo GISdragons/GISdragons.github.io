@@ -42,19 +42,6 @@ url: 'Joseph Smith Life.kml'
 })
 });
 		
-/**
- * Create the map.
- */
-var map = new ol.Map({
-  layers: [background, JSLife],
-  overlays: [overlay],
-  target: 'map',
-  view: new ol.View({
-	center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
-	zoom: 5
-	})
-});
-
 map.on('click', function(evt) {
   //try to destroy it before doing anything else...s
   //$(element).popover('destroy');
