@@ -52,10 +52,10 @@ http://www.tooplate.com/view/2050-blue-spark
       }
       
   .styled-select select {
-   background: transparent;
-   width: 268px;
+   background: white;
+   width: 350px;
    padding: 5px;
-   font-size: 16px;
+   font-size: 18px;
    line-height: 1;
    border: 0;
    border-radius: 0;
