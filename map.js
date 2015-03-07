@@ -6,16 +6,17 @@ var closer = document.getElementById('popup-closer');
 
 /** Adding a click handler to hide the popup
     just in case there is one already existing */
-closer.onclick = function() {
+
+/*closer.onclick = function() {
 	overlay.setPosition(undefined);
 	closer.blur();
 	return false;
-};
+};*/
 
 /** Adding elements that make the pop-up */
-var overlay = new ol.Overlay({
+/*var overlay = new ol.Overlay({
 	element: container
-)};
+)};*/
 
 /** Here we are declaring the projection object for Web Mercator */
 var projection = ol.proj.get('EPSG:3857');
