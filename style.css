@@ -212,7 +212,11 @@ a:hover {text-decoration: none;}
 
 .green {color: #399;}
 
-p { margin: 0 0 10px 0; padding: 0; }
+p { 
+	margin: 0 0 10px 0; 
+	padding: 0; 
+	color: #e0ffff;
+}
 img { border: none; }
 blockquote { font-style: italic; margin: 0 0 0 10px;}
 cite { font-weight: bold; color:#375c06; }
