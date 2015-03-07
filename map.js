@@ -76,7 +76,7 @@ function dropdown_clicked(ID) {
 	content.innerHTML = displaycontent;
 }
 
-function dropdown_clicked(ID) {
+function button_clicked(ID) {
 	myFeature = JSLife.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
 	myView = map.getView();
@@ -87,6 +87,7 @@ function dropdown_clicked(ID) {
 	var displaycontent = myFeature.get('description');
 	content.innerHTML = displaycontent;
 }
+
 /** Trying to find a fetaure on a "click" event */
 /** We first try to get a feature at the point of interest */
 /**var feature = map.forEachFeatureAtPixel(evt.pixel,
