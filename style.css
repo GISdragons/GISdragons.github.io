@@ -50,6 +50,19 @@ http://www.tooplate.com/view/2050-blue-spark
       .ol-popup-closer:after {
         content: "✖";
       }
+      
+  .styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+   
  /* End of style that used to be in head part of html */
  
  /*
