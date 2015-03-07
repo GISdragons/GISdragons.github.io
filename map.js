@@ -75,7 +75,7 @@ function dropdown_clicked(ID) {
 	content.innerHTML = displaycontent;
 }
 
-function button_clicked(ID) {
+function dropdown_clicked(ID) {
 	myFeature = JSLife.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
 	myView = map.getView();
