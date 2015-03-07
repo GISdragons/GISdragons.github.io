@@ -64,6 +64,10 @@ http://www.tooplate.com/view/2050-blue-spark
    -webkit-appearance: none;
    }
    
+  .styled-select:hover {
+  background: #008500;
+  text-decoration: none;
+}
  /* End of style that used to be in head part of html */
  
  /*
