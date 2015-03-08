@@ -93,7 +93,9 @@
 			<name>Topsfield, MA</name>
 			<description>
 				Joseph Smith Sr. was born on July 12, 1771
-				in Topsfield, Massachusetts.
+				in Topsfield, Massachusetts. 5 previous generations
+				of Smith's were born here before they moved to
+				New York.
 			</description>
 			<LookAt>
 				<longitude>-70.94853687490027</longitude>
@@ -291,18 +293,18 @@
 		<Placemark>
 			<name>Newell K Whitney Store</name>
 			<description>
-			<![CDATA[
-				<p>
-					Joseph Smith lived here for a time and established 
-					the School of the Prophets in one of the upper rooms.
-				</p>
-				<p>
-					For more information, follow this link:
-					<a href="https://www.lds.org/locations/historic-kirtland-visitors-center">
-						Historic Kirtland Visitors' Center
-					</a>
-				</p>
-			]]>
+				<![CDATA[
+					<p>
+						Joseph Smith lived here for a time and established 
+						the School of the Prophets in one of the upper rooms.
+					</p>
+					<p>
+						For more information, follow this link:
+						<a href="https://www.lds.org/locations/historic-kirtland-visitors-center">
+							Historic Kirtland Visitors' Center
+						</a>
+					</p>
+				]]>
 			</description>
 			<LookAt>
 				<longitude>-81.36165320577938</longitude>
@@ -321,7 +323,28 @@
 		</Placemark>
 		<Placemark>
 			<name>Kirtland Temple</name>
-			<description>Testing Phrase 2</description>
+			<description>
+				<![CDATA[
+					<p>
+						"The Prophet Joseph dedicated the Kirtland Temple
+						on March 27, 1836, repeating the ceremony several
+						days later. Beginning in January and continuing
+						past the dedication, many Church members witnessed
+						heavenly manifestations during this glorious season,
+						culminating in Jesus Christ's appearance to Joseph
+						Smith and Oliver Cowdery to accept the temple. 
+						Moses, Elias, and Elijah also appeared to Joseph 
+						and Oliver to restore priesthood keys for the 
+						salvation of all mankind."
+					</p>
+					<p>
+						For more information, follow this link:
+						<a href="https://history.lds.org/article/historic-sites-ohio-kirtland-temple-kirtland?lang=eng">
+							Historic Sites: Kirtland Temple
+						</a>
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-81.36191579883884</longitude>
 				<latitude>41.6251840640563</latitude>
