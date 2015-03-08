@@ -290,6 +290,20 @@
 		</Placemark>
 		<Placemark>
 			<name>Newell K Whitney Store</name>
+			<description>
+			<![CDATA[
+				<p>
+					Joseph Smith lived here for a time and established 
+					the School of the Prophets in one of the upper rooms.
+				</p>
+				<p>
+					For more information, follow this link:
+					<a href="https://www.lds.org/locations/historic-kirtland-visitors-center">
+						Historic Kirtland Visitors' Center
+					</a>
+				</p>
+			]]>
+			</description>
 			<LookAt>
 				<longitude>-81.36165320577938</longitude>
 				<latitude>41.62919035793662</latitude>
