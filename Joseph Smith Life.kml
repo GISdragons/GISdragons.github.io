@@ -362,7 +362,25 @@
 		</Placemark>
 		<Placemark>
 			<name>Caldwell County, Missouri</name>
-			<description>THe Prophet settled here for a time</description>
+			<description>
+				<![CDATA[
+					<p>
+						Here in Caldwell County, the early LDS church fled here
+						with Joseph Smith Jr., because everyone in the church had been exiled from
+						Independence, Missouri.
+					</p>
+					<p>
+						For more information, follow these links:
+						<a href="http://josephsmithpapers.org/place/caldwell-county-missouri">
+							Caldwell County, Missouri 
+						</a>
+						and
+						<a href="http://josephsmithpapers.org/paperSummary/letter-to-the-church-in-caldwell-county-missouri-16-december-1838">
+							Letter to the Church in Caldwell County, Missouri, 16 December 1838
+						</a>
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-93.91255146395405</longitude>
 				<latitude>39.57555777074654</latitude>
