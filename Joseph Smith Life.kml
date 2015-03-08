@@ -172,6 +172,23 @@
 		</Placemark>
 		<Placemark>
 			<name>Melchizedek Priesthood Restoration</name>
+			<description>
+				<![CDATA[
+					<p>
+						Sometime between the 16 and 28 of May, 1929, Joseph
+						Smith Jr. and Oliver Cowdery were visited by the
+						ancient apostles Peter, James, and John as
+						resurrected beings and conferred the Melchizedek
+						Priesthood upon them.
+					</p>
+					<p>
+						To read the full account you can follow this link.
+						<a href="https://www.lds.org/ensign/1996/12/the-restoration-of-the-aaronic-and-melchizedek-priesthoods?lang=eng">
+							Joseph Smith - History 1:66-73
+						</a>
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-75.6401874149216</longitude>
 				<latitude>41.94992458696182</latitude>
