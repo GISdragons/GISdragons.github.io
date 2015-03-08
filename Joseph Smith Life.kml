@@ -206,6 +206,23 @@
 		</Placemark>
 		<Placemark>
 			<name>Nauvoo, Illinois</name>
+			<description>
+				<![CDATA[
+					<p>
+						The Nauvoo Temple was the second temple built
+						by the Church of Jesus Christ of Latter Day
+						Saints. It was the first temple that could
+						perform Baptisms for the Dead, Initatories,
+						Endowments, and Mariage and Family Sealings.
+					</p>
+					<p>
+						For More Information feel free to use the link:
+						<a href="https://www.lds.org/search?q=nauvoo+temple&domains=all&lang=eng">
+							LDS search: "Nauvoo Temple"
+						</a>
+					</p>
+				]]>
+			</description>
 			<styleUrl>#bluedot</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -220,7 +237,24 @@
 		</Placemark>
 		<Placemark>
 			<name>Nauvoo Temple</name>
-			<description><![CDATA[<img src="https://www.google.com/search?q=nauvoo+temple&espv=2&biw=1680&bih=949&source=lnms&tbm=isch&sa=X&ei=j_3sVJN2hquCBMTug9gK&ved=0CAcQ_AUoAg&dpr=1#imgdii=_&imgrc=K5Rl-4uNK3zvnM%253A%3B92ctqGSvbjbRVM%3Bhttps%253A%252F%252Fwww.lds.org%252Fbc%252Fcontent%252Fchurch%252Ftemples%252Fnauvoo-illinois%252Fimages%252Fnauvoo-illinois-808x480-CWD_091410_JArnesen.jpg%3Bhttps%253A%252F%252Fwww.lds.org%252Fchurch%252Ftemples%252Fnauvoo-illinois%253Flang%253Deng%3B808%3B480"/><a href="https://www.lds.org/church/temples/nauvoo-illinois?lang=eng">https://www.lds.org/church/temples/nauvoo-illinois?lang=eng</a>]]></description>
+			<!-- This description is a copy of the Nauvoo Temple Polygon Description -->
+			<description>
+				<![CDATA[
+					<p>
+						The Nauvoo Temple was the second temple built
+						by the Church of Jesus Christ of Latter Day
+						Saints. It was the first temple that could
+						perform Baptisms for the Dead, Initatories,
+						Endowments, and Mariage and Family Sealings.
+					</p>
+					<p>
+						For More Information feel free to use the link:
+						<a href="https://www.lds.org/search?q=nauvoo+temple&domains=all&lang=eng">
+							LDS search: "Nauvoo Temple"
+						</a>
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-91.36638468762428</longitude>
 				<latitude>40.54852380778416</latitude>
