@@ -43,8 +43,9 @@
 		<Placemark>
 			<name>Birthplace</name>
 			<description>
-				Joseph Smith was born on
+				Joseph Smith Jr. was born on
 				December 23, 1805 in Sharon, Vermont
+				to Lucy Mack Smith and Joseph Smith Sr.
 			</description>
 			<LookAt>
 				<longitude>-72.47307800016691</longitude>
@@ -90,8 +91,10 @@
 		</Placemark>
 		<Placemark>
 			<name>Topsfield, MA</name>
-			<description><![CDATA[<p><img src="topsfield.png" width="50"></p>
-Image source:<a href="http://www.sundials.co.uk/pix/gosport.jpg">www.sundials.co.uk</a>]]></description>
+			<description>
+				Joseph Smith Sr. was born on July 12, 1771
+				in Topsfield, Massachusetts.
+			</description>
 			<LookAt>
 				<longitude>-70.94853687490027</longitude>
 				<latitude>42.63787500650474</latitude>
@@ -108,6 +111,10 @@ Image source:<a href="http://www.sundials.co.uk/pix/gosport.jpg">www.sundials.co
 		</Placemark>
 		<Placemark>
 			<name>Joseph Smith Log Cabin</name>
+			<description>
+				
+				
+			</description>
 			<LookAt>
 				<longitude>-77.23912047699672</longitude>
 				<latitude>43.04051934335634</latitude>
