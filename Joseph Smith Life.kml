@@ -112,8 +112,12 @@
 		<Placemark>
 			<name>Joseph Smith Log Cabin</name>
 			<description>
-				
-				
+				This was the place that Joseph Smith Jr. lived during
+				the time he was investigating different churches. He
+				eventually decided to pray and ask God after reading
+				James 1:5, which reads: "If any of you lack wisdom, 
+				let him ask of God, that giveth to all men liberally, 
+				and upbraideth not; and it shall be given him."
 			</description>
 			<LookAt>
 				<longitude>-77.23912047699672</longitude>
@@ -132,6 +136,25 @@
 		</Placemark>
 		<Placemark>
 			<name>Aaronic Priesthood restoration</name>
+			<description>
+				<![CDATA[
+					<p>
+						After Joseph Smith Jr. and Oliver Cowdery were
+						translating the Book of Mormon, they felt impressed
+						to go pray in May of 1829 about batism and the
+						remission of sins that had been mentioned in the Golden
+						Plates. While praying, John the Baptist visited them as
+						a resurrected being and conferred the Aaronic Priesthood,
+						or preparatory priesthood, upon both of them.
+					</p>
+					<p>
+						To read the full account you can follow this link.
+						<a href="https://www.lds.org/scriptures/pgp/js-h/1?lang=eng">
+							Joseph Smith - History 1:66-73
+						</a>
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-75.63936522056302</longitude>
 				<latitude>41.95064570083508</latitude>
