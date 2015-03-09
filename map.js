@@ -14,9 +14,9 @@ var closer = document.getElementById('popup-closer');
 };*/
 
 /** Adding elements that make the pop-up */
-/*var overlay = new ol.Overlay({
+var overlay = new ol.Overlay({
 	element: container
-)};*/
+)};
 
 /** Here we are declaring the projection object for Web Mercator */
 var projection = ol.proj.get('EPSG:3857');
@@ -39,6 +39,7 @@ var JSLife = new ol.layer.Vector({
 /** Creating the Map */
 var map = new ol.Map({
 	layers: [background,JSLife],
+	overlay: [overlay],
 	target: 'map',
 	view: new ol.View({
 		  center: ol.proj.transform([-81.36191579883884, 41.6251840640563], 'EPSG:4326', projection),
