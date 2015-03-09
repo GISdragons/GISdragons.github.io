@@ -35,6 +35,12 @@
 			<width>5</width>
 		</LineStyle>
 	</Style>
+	<Style id="NauvooTemplePoly">
+		<PolyStyle>
+		        <color>7f00ff00</color>
+		        <fill>1</fill>
+      		</PolyStyle>
+	</Style>
 	<!-- end of testing new style -->
 	<Folder>
 		<name>Joseph Smith Life</name>
@@ -225,7 +231,7 @@
 					</p>
 				]]>
 			</description>
-			<styleUrl>#bluedot</styleUrl>
+			<styleUrl>#NauvooTemplePoly</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
