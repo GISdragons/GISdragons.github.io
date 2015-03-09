@@ -102,19 +102,15 @@ http://www.tooplate.com/view/2050-blue-spark
 	/*hopefully will make the page centered again*/
 	/*margin-left:10px;*/
     	/*margin-right:20px;*/
-	
 	-moz-border-radius-bottomleft:0px;
 	-webkit-border-bottom-left-radius:0px;
 	border-bottom-left-radius:0px;
-	
 	-moz-border-radius-bottomright:0px;
 	-webkit-border-bottom-right-radius:0px;
 	border-bottom-right-radius:0px;
-	
 	-moz-border-radius-topright:0px;
 	-webkit-border-top-right-radius:0px;
 	border-top-right-radius:0px;
-	
 	-moz-border-radius-topleft:0px;
 	-webkit-border-top-left-radius:0px;
 	border-top-left-radius:0px;
@@ -144,14 +140,10 @@ http://www.tooplate.com/view/2050-blue-spark
 	border-bottom-left-radius:0px;
 }.CSSTableGenerator tr:hover td{
 	background-color:#ffffff;
-		
-
 }
 .CSSTableGenerator td{
 	vertical-align:middle;
-	
 	background-color:#7fff00;
-
 	border:1px solid #d4af37;
 	border-width:0px 1px 1px 0px;
 	text-align:center;
@@ -171,7 +163,6 @@ http://www.tooplate.com/view/2050-blue-spark
 		background:-o-linear-gradient(bottom, #00bf00 5%, #00bf00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00bf00), color-stop(1, #00bf00) );
 	background:-moz-linear-gradient( center top, #00bf00 5%, #00bf00 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00bf00", endColorstr="#00bf00");	background: -o-linear-gradient(top,#00bf00,00bf00);
-
 	background-color:#00bf00;
 	border:0px solid #d4af37;
 	text-align:center;
@@ -185,7 +176,6 @@ http://www.tooplate.com/view/2050-blue-spark
 	background:-o-linear-gradient(bottom, #00bf00 5%, #00bf00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00bf00), color-stop(1, #00bf00) );
 	background:-moz-linear-gradient( center top, #00bf00 5%, #00bf00 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00bf00", endColorstr="#00bf00");	background: -o-linear-gradient(top,#00bf00,00bf00);
-
 	background-color:#00bf00;
 }
 .CSSTableGenerator tr:first-child td:first-child{
@@ -227,7 +217,7 @@ a:hover {text-decoration: none;}
 p { 
 	margin: 0 0 10px 0; 
 	padding: 0; 
-	color: #e0ffff;
+	color: black; /* color: #e0ffff; = Light Cyan */
 }
 img { border: none; }
 blockquote { font-style: italic; margin: 0 0 0 10px;}
