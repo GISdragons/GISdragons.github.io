@@ -6,7 +6,7 @@ http://www.tooplate.com/view/2050-blue-spark
 /* used to be in the HTML head. Now moved here */
     .map {
         height: 600px;
-        width: 80%;
+        width: 100%;
       }
     .ol-popup {
         position: absolute;
