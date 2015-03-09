@@ -14,9 +14,9 @@ var closer = document.getElementById('popup-closer');
 };*/
 
 /** Adding elements that make the pop-up */
-/*var overlay = new ol.Overlay({
+var overlay = new ol.Overlay({
 	element: container
-)};*/
+)};
 
 /** Here we are declaring the projection object for Web Mercator */
 var projection = ol.proj.get('EPSG:3857');
