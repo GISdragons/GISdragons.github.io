@@ -7,11 +7,11 @@ var closer = document.getElementById('popup-closer');
 /** Adding a click handler to hide the popup
     just in case there is one already existing */
 
-/*closer.onclick = function() {
+closer.onclick = function() {
 	overlay.setPosition(undefined);
 	closer.blur();
 	return false;
-};*/
+};
 
 /** Adding elements that make the pop-up */
 var overlay = new ol.Overlay({
