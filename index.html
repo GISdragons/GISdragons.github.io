@@ -15,7 +15,7 @@
     <!-- note that all our KML locations are in one file -->
     <form> <!-- first creating a combo list for selecting different sites in the KML -->
     <div class="styled-select">
-      <select onchange="dropdown_clicked(this.value);">
+      <select onchange="clicked(this.value);">
       		<option value="none">*Please select a site*</option>
 	  	<option value="1">Birthplace</option>
 	  	<option value="2">Sacred Grove</option>
@@ -37,27 +37,27 @@
 	</div>
     </form>
     <form> <!-- next creating buttons to also go to different sites in the KML -->
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="1" value="Birthplace">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="2" value="Sacred Grove">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="3" value="Topsfield, MA">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="4" value="Smith Log Cabin">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="5" value="Aaronic Priesthood Restoration">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="6" value="Melchizedek Priesthood Restoration">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="7" value="Nauvoo, Illinois">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="8" value="Nauvoo Temple">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="9" value="Peter Whitmer house">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="10" value="Newell K Whitney Store">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="11" value="Kirtland Temple">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="12" value="Caldwell County, MO">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="13" value="Far West temple site">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="14" value="Liberty Jail">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="15" value="Carthage Jail">
-	  <input type="button" class="btn" onclick="button_clicked(this.id);" id="16" value="The Nauvoo House">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="1" value="Birthplace">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="2" value="Sacred Grove">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="3" value="Topsfield, MA">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="4" value="Smith Log Cabin">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="5" value="Aaronic Priesthood Restoration">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="6" value="Melchizedek Priesthood Restoration">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="7" value="Nauvoo, Illinois">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="8" value="Nauvoo Temple">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="9" value="Peter Whitmer house">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="10" value="Newell K Whitney Store">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="11" value="Kirtland Temple">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="12" value="Caldwell County, MO">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="13" value="Far West temple site">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="14" value="Liberty Jail">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="15" value="Carthage Jail">
+	  <input type="button" class="btn" onclick="clicked(this.id);" id="16" value="The Nauvoo House">
     </form>
     
     <div id="map" class="map"> <!-- div tag for creating the map -->
 	    <div id="popup" class="ol-popup"> <!-- popups will exist inside our map, if and when they show up :) -->
-	    	<a href="#" id="popup-closer" class="ol-popup-closer"></a> <!-- preston added this. No idea why? -->
+	    	<a href="#" id="popup-closer" class="ol-popup-closer"></a>
 	    	<div id="popup-content"></div> <!-- does this also belong here??? -->
 	    </div>
     </div>
