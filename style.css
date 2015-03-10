@@ -3,6 +3,42 @@ Template 2050 Blue Spark
 http://www.tooplate.com/view/2050-blue-spark
 */
 
+/* new headers since the normal ones are being buggy */
+.new_h1 {
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	font-size: 34px;
+	margin: 0 0 20px;
+	padding: 5px 0
+}
+.new_h2 {
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	font-size: 34px;
+	margin: 0 0 20px;
+	padding: 5px 0
+}
+.new_h3 {
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	font-size: 34px;
+	margin: 0 0 20px;
+	padding: 5px 0
+}
+.new_h4 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 0 5px;
+	padding: 0;
+	color: black;
+	font-weight: bold;
+}
+/* end of new headers css */
+
 /* used to be in the HTML head. Now moved here */
  .map {
     height: 600px;
