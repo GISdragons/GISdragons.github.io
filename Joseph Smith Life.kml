@@ -49,9 +49,14 @@
 		<Placemark>
 			<name>Birthplace</name>
 			<description>
-				Joseph Smith Jr. was born on
-				December 23, 1805 in Sharon, Vermont
-				to Lucy Mack Smith and Joseph Smith Sr.
+				<![CDATA[
+					<h6>Birthplace</h6>
+					<p>
+						Joseph Smith Jr. was born on
+						December 23, 1805 in Sharon, Vermont
+						to Lucy Mack Smith and Joseph Smith Sr.
+					</p>
+				]]>
 			</description>
 			<LookAt>
 				<longitude>-72.47307800016691</longitude>
@@ -71,13 +76,18 @@
 		<Placemark>
 			<name>Sacred Grove</name>
 			<description>
-				In the Spring of 1820, Joseph Smith went into
-				a grove of trees to know which church was true.
-				It was here that Joseph Smith had the First Vision,
-				where he saw God, the Father, and His son, Jesus Christ
-				He was told none of the churches were true at the
-				time. He was told he would be an instrumental part of
-				restoring the fulness of the gospel to the earth again.
+				<![CDATA[
+					<h6>Sacred Grove</h6>
+					<p>
+						In the Spring of 1820, Joseph Smith went into
+						a grove of trees to know which church was true.
+						It was here that Joseph Smith had the First Vision,
+						where he saw God, the Father, and His son, Jesus Christ
+						He was told none of the churches were true at the
+						time. He was told he would be an instrumental part of
+						restoring the fulness of the gospel to the earth again.
+					</p>
+				]]>
 			</description>
 			<LookAt>
 				<longitude>-77.24429599989649</longitude>
@@ -97,11 +107,16 @@
 		</Placemark>
 		<Placemark>
 			<name>Topsfield, MA</name>
-			<description>	
-				Joseph Smith Sr. was born on July 12, 1771
-				in Topsfield, Massachusetts. 5 previous generations
-				of Smith's were born here before they moved to
-				New York.
+			<description>
+				<![CDATA[
+					<h6>Topsfield, MA</h6>
+					<p>
+						Joseph Smith Sr. was born on July 12, 1771
+						in Topsfield, Massachusetts. 5 previous generations
+						of Smith's were born here before they moved to
+						New York.
+					</p>
+				]]>
 			</description>
 			<LookAt>
 				<longitude>-70.94853687490027</longitude>
