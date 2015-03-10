@@ -569,16 +569,19 @@
 		<Placemark>
 		<name>Hill Cumorah</name>
 		<description>
-				<![CDATA[
-					<h6>Hill Cumorah</h6>
-					<p>
-					The hill named Cumorah in Manchester, New York is where Joseph Smith was directed to obtain
-					the golden plates which contained the writings of the Book of Mormon. The Prophet
-					wrote: "On the west side of this hill, not far from the top, under a stone of considerable size, 
+			<![CDATA[
+				<h6>Hill Cumorah</h6>
+				<p>
+					The hill named Cumorah in Manchester, New York is where Joseph
+					Smith was directed to obtain
+					the golden plates which contained the writings of the Book of Mormon.
+					The Prophet
+					wrote: "On the west side of this hill, not far from the top,
+					under a stone of considerable size, 
 					lay the plates, deposited in a stone box."
-					</p>
-				]]>
-			</description>
+				</p>
+			]]>
+		</description>
 		<LookAt>
 			<longitude>-77.2229579311289</longitude>
 			<latitude>43.00601898639938</latitude>
