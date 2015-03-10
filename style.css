@@ -4,262 +4,327 @@ http://www.tooplate.com/view/2050-blue-spark
 */
 
 /* used to be in the HTML head. Now moved here */
-    .map {
-        height: 600px;
-        width: 100%;
-      }
-    .ol-popup {
-        position: absolute;
-        background-color: white;
-        -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
-        filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
-        padding: 15px;
-        border-radius: 10px;
-        border: 1px solid #cccccc;
-        bottom: 30px;
-        left: -50px;
-        width: 250px;
-      }
-      .ol-popup:after, .ol-popup:before {
-        top: 100%;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-      }
-      .ol-popup:after {
-        border-top-color: white;
-        border-width: 10px;
-        left: 48px;
-        margin-left: -10px;
-      }
-      .ol-popup:before {
-        border-top-color: #cccccc;
-        border-width: 11px;
-        left: 48px;
-        margin-left: -11px;
-      }
-      .ol-popup-closer {
-        text-decoration: none;
-        position: absolute;
-        top: 2px;
-        right: 8px;
-      }
-      .ol-popup-closer:after {
-        content: "✖";
-      }
-   /* End of style that used to be in head part of html */    
-  
-      .styled-select select {
-	   background: white;
-	   width: 350px;
-	   padding: 5px;
-	   font-size: 18px;
-	   line-height: 1;
-	   border: 0;
-	   border-radius: 0;
-	   height: 34px;
-      }
-  
- /*
+ .map {
+    height: 600px;
+    width: 100%;
+}
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 30px;
+    left: -50px;
+    width: 250px;
+}
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content:" ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+.ol-popup-closer:after {
+    content:"✖";
+}
+/* End of style that used to be in head part of html */
+ .styled-select select {
+    background: white;
+    width: 350px;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+}
+/*
  Going to try a button class that will help give the buttons some style.
  */
  .btn {
-  background: #00cc47;
-  background-image: -webkit-linear-gradient(top, #00cc47, #00ad28);
-  background-image: -moz-linear-gradient(top, #00cc47, #00ad28);
-  background-image: -ms-linear-gradient(top, #00cc47, #00ad28);
-  background-image: -o-linear-gradient(top, #00cc47, #00ad28);
-  background-image: linear-gradient(to bottom, #00cc47, #00ad28);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 18px;
-  padding: 5px 10px 5px 10px;
-  text-decoration: none;
+    background: #00cc47;
+    background-image: -webkit-linear-gradient(top, #00cc47, #00ad28);
+    background-image: -moz-linear-gradient(top, #00cc47, #00ad28);
+    background-image: -ms-linear-gradient(top, #00cc47, #00ad28);
+    background-image: -o-linear-gradient(top, #00cc47, #00ad28);
+    background-image: linear-gradient(to bottom, #00cc47, #00ad28);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
 }
 .btn:hover {
-  background: #008500;
-  text-decoration: none;
+    background: #008500;
+    text-decoration: none;
 }
- /*
+/*
  End of button class
  */
-  
-  /* 
+
+/* 
   Table Class generator that was worth a try
   Create table first with a div tag in html
   */
-.CSSTableGenerator {
-	margin:0px;padding:0px;
-	width:calc(100% - 18px);
-	border:10px solid #d4af37;
-	/*hopefully will make the page centered again*/
-	/*margin-left:10px;*/
-    	/*margin-right:20px;*/
-	-moz-border-radius-bottomleft:0px;
-	-webkit-border-bottom-left-radius:0px;
-	border-bottom-left-radius:0px;
-	-moz-border-radius-bottomright:0px;
-	-webkit-border-bottom-right-radius:0px;
-	border-bottom-right-radius:0px;
-	-moz-border-radius-topright:0px;
-	-webkit-border-top-right-radius:0px;
-	border-top-right-radius:0px;
-	-moz-border-radius-topleft:0px;
-	-webkit-border-top-left-radius:0px;
-	border-top-left-radius:0px;
-}.CSSTableGenerator table{
+ .CSSTableGenerator {
+    margin:0px;
+    padding:0px;
+    width:calc(100% - 18px);
+    border:10px solid #d4af37;
+    /*hopefully will make the page centered again*/
+    /*margin-left:10px;*/
+    /*margin-right:20px;*/
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.CSSTableGenerator table {
     border-collapse: collapse;
-        border-spacing: 0;
-	width:100%;
-	height:100%;
-	margin:0px;padding:0px;
-}.CSSTableGenerator tr:last-child td:last-child {
-	-moz-border-radius-bottomright:0px;
-	-webkit-border-bottom-right-radius:0px;
-	border-bottom-right-radius:0px;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+.CSSTableGenerator tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
 }
 .CSSTableGenerator table tr:first-child td:first-child {
-	-moz-border-radius-topleft:0px;
-	-webkit-border-top-left-radius:0px;
-	border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
 }
 .CSSTableGenerator table tr:first-child td:last-child {
-	-moz-border-radius-topright:0px;
-	-webkit-border-top-right-radius:0px;
-	border-top-right-radius:0px;
-}.CSSTableGenerator tr:last-child td:first-child{
-	-moz-border-radius-bottomleft:0px;
-	-webkit-border-bottom-left-radius:0px;
-	border-bottom-left-radius:0px;
-}.CSSTableGenerator tr:hover td{
-	background-color:#ffffff;
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
 }
-.CSSTableGenerator td{
-	vertical-align:middle;
-	background-color:#7fff00;
-	border:1px solid #d4af37;
-	border-width:0px 1px 1px 0px;
-	text-align:center;
-	padding:0px;
-	font-size:10px;
-	font-family:Arial;
-	font-weight:normal;
-	color:#000000;
-}.CSSTableGenerator tr:last-child td{
-	border-width:0px 1px 0px 0px;
-}.CSSTableGenerator tr td:last-child{
-	border-width:0px 0px 1px 0px;
-}.CSSTableGenerator tr:last-child td:last-child{
-	border-width:0px 0px 0px 0px;
+.CSSTableGenerator tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
 }
-.CSSTableGenerator tr:first-child td{
-		background:-o-linear-gradient(bottom, #00bf00 5%, #00bf00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00bf00), color-stop(1, #00bf00) );
-	background:-moz-linear-gradient( center top, #00bf00 5%, #00bf00 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00bf00", endColorstr="#00bf00");	background: -o-linear-gradient(top,#00bf00,00bf00);
-	background-color:#00bf00;
-	border:0px solid #d4af37;
-	text-align:center;
-	border-width:0px 0px 1px 1px;
-	font-size:14px;
-	font-family:Arial;
-	font-weight:normal;
-	color:#ffffff;
+.CSSTableGenerator tr:hover td {
+    background-color:#ffffff;
 }
-.CSSTableGenerator tr:first-child:hover td{
-	background:-o-linear-gradient(bottom, #00bf00 5%, #00bf00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00bf00), color-stop(1, #00bf00) );
-	background:-moz-linear-gradient( center top, #00bf00 5%, #00bf00 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00bf00", endColorstr="#00bf00");	background: -o-linear-gradient(top,#00bf00,00bf00);
-	background-color:#00bf00;
+.CSSTableGenerator td {
+    vertical-align:middle;
+    background-color:#7fff00;
+    border:1px solid #d4af37;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:0px;
+    font-size:10px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
 }
-.CSSTableGenerator tr:first-child td:first-child{
-	border-width:0px 0px 1px 0px;
+.CSSTableGenerator tr:last-child td {
+    border-width:0px 1px 0px 0px;
 }
-.CSSTableGenerator tr:first-child td:last-child{
-	border-width:0px 0px 1px 1px;
+.CSSTableGenerator tr td:last-child {
+    border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:last-child td:last-child {
+    border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td {
+    background:-o-linear-gradient(bottom, #00bf00 5%, #00bf00 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00bf00), color-stop(1, #00bf00));
+    background:-moz-linear-gradient(center top, #00bf00 5%, #00bf00 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00bf00", endColorstr="#00bf00");
+    background: -o-linear-gradient(top, #00bf00, 00bf00);
+    background-color:#00bf00;
+    border:0px solid #d4af37;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td {
+    background:-o-linear-gradient(bottom, #00bf00 5%, #00bf00 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00bf00), color-stop(1, #00bf00));
+    background:-moz-linear-gradient(center top, #00bf00 5%, #00bf00 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00bf00", endColorstr="#00bf00");
+    background: -o-linear-gradient(top, #00bf00, 00bf00);
+    background-color:#00bf00;
+}
+.CSSTableGenerator tr:first-child td:first-child {
+    border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child {
+    border-width:0px 0px 1px 1px;
 }
 /*
 End of Table Class
 */
-
-body {
-	margin: 0;
-	padding: 0;
-	color: #333333;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 12px;
-	line-height: 1.5em; 
-	background-color: #0c2436;
-	background-image: url(../images/tooplate_wrapper.jpg);
-	background-repeat: repeat-x;
-	background-position: top center;
-	text-align: center;
+ body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    background-color: #0c2436;
+    background-image: url(../images/tooplate_wrapper.jpg);
+    background-repeat: repeat-x;
+    background-position: top center;
+    text-align: center;
 }
-
-a, a:link, a:visited { 
-	color: #0c2437; 
-	font-weight: 400; 
-	text-decoration: underline; 
+a, a:link, a:visited {
+    color: #0c2437;
+    font-weight: 400;
+    text-decoration: underline;
 }
-
-a:hover {text-decoration: none;}
-
-.orange {color: #C60;}
-
-.green {color: #399;}
-
-p { 
-	margin: 0 0 10px 0; 
-	padding: 0; 
-	color: black; /* color: #e0ffff; = Light Cyan */
+a:hover {
+    text-decoration: none;
 }
-img { border: none; }
-blockquote { font-style: italic; margin: 0 0 0 10px;}
-cite { font-weight: bold; color:#375c06; }
-cite span { color: #666; }
-em { color: #000; font-weight: 400 }
-
-h1, h2, h3, h4, h5, h6 { color: white; font-weight: normal; text-align: center; }
-h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
-h2 { font-size: 28px; margin: 0 0 20px; padding: 5px 0 10px 0; color: #fff }
-h3 { font-size: 20px; margin: 0 0 15px; padding: 0; }
-h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
-h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
-h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
-
-.cleaner { clear: both }
-.h10 { height: 10px }
-.h20 { height: 20px }
-.h30 { height: 30px }
-.h40 { height: 40px }
-.h50 { height: 50px }
-.h60 { height: 60px }
-
-.float_l { float: left }
-.float_r { float: right }
-
-.image_wrapper { 
-	display: inline-block; 
-	border: 1px solid #ccc; 
-	padding: 4px; 
-	background: #fff; 
+.orange {
+    color: #C60;
 }
-
-.image_fl { 
-	float: left; 
-	margin: 3px 20px 0 0; 
+.green {
+    color: #399;
 }
-
-.image_fr { 
-	float: right; 
-	margin: 3px 0 0 20px; 
+p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: black;
+    /* color: #e0ffff; = Light Cyan */
 }
-
+img {
+    border: none;
+}
+blockquote {
+    font-style: italic;
+    margin: 0 0 0 10px;
+}
+cite {
+    font-weight: bold;
+    color:#375c06;
+}
+cite span {
+    color: #666;
+}
+em {
+    color: #000;
+    font-weight: 400
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+h1 {
+    font-size: 34px;
+    margin: 0 0 20px;
+    padding: 5px 0
+}
+h2 {
+    font-size: 28px;
+    margin: 0 0 20px;
+    padding: 5px 0 10px 0;
+    color: #fff
+}
+h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+    padding: 0;
+}
+h4 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    padding: 0;
+}
+h5 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+h6 {
+    font-size: 14px;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.cleaner {
+    clear: both
+}
+.h10 {
+    height: 10px
+}
+.h20 {
+    height: 20px
+}
+.h30 {
+    height: 30px
+}
+.h40 {
+    height: 40px
+}
+.h50 {
+    height: 50px
+}
+.h60 {
+    height: 60px
+}
+.float_l {
+    float: left
+}
+.float_r {
+    float: right
+}
+.image_wrapper {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: #fff;
+}
+.image_fl {
+    float: left;
+    margin: 3px 20px 0 0;
+}
+.image_fr {
+    float: right;
+    margin: 3px 0 0 20px;
+}
 /* I don't think we need this stuff
 .tooplate_list { 
 	margin: 20px 0 20px 10px; 
@@ -303,210 +368,212 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	padding: 40px 20px 10px;
 }
 */
-#site_title { 
-	float: left; 
+ #site_title {
+    float: left;
 }
-#site_title h1 { 
-	margin: 0;
-	padding: 0; 
+#site_title h1 {
+    margin: 0;
+    padding: 0;
 }
-#site_title h1 a { 
-	display: block; 
-	width: 195px; 
-	height: 46px; 
-	background: url(../images/tooplate_logo.png)  no-repeat top left; 
-	color: #fff; 
-	font-size: 40px; 
-	font-weight: 400; 
-	outline: none; 
-	text-indent: -10000px; 
+#site_title h1 a {
+    display: block;
+    width: 195px;
+    height: 46px;
+    background: url(../images/tooplate_logo.png) no-repeat top left;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    outline: none;
+    text-indent: -10000px;
 }
-
 /* menu */
-#tooplate_menu { 
-	float: right; 
-	margin-top: 10px; 
+ #tooplate_menu {
+    float: right;
+    margin-top: 10px;
 }
-#tooplate_menu ul { 
-	padding: 0; 
-	margin: 0; 
-	list-style: none; 
+#tooplate_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-#tooplate_menu ul li { 
-	margin: 0; 
-	padding: 0; 
-	display: inline-block; 
+#tooplate_menu ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 #tooplate_menu ul li a {
-	float: left;
-	display: block;
-	width: 105px;
-	height: 33px;
-	line-height: 29px;
-	font-size: 14px;
-	color: #fff;	
-	margin-left: 2px;
-	text-align: center;
-	text-decoration: none;
-	font-weight: 700;
-	outline: none;
+    float: left;
+    display: block;
+    width: 105px;
+    height: 33px;
+    line-height: 29px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    outline: none;
 }
 #tooplate_menu ul li a:hover, #tooplate_menu ul .current {
-	color: #000;
-	background: url(../images/tooplate_menu_hover.png) no-repeat center center;
+    color: #000;
+    background: url(../images/tooplate_menu_hover.png) no-repeat center center;
 }
 /* end of menu */
-
-#tooplate_main {
-	clear: both;
-	width: 800px;
+ #tooplate_main {
+    clear: both;
+    width: 800px;
 }
-.content_box { 
-	clear: both; 
-	width: 800px; 
+.content_box {
+    clear: both;
+    width: 800px;
 }
-.content_title { 
-	width: 700px; 
-	height: 30px; 
-	padding: 15px 50px; 
+.content_title {
+    width: 700px;
+    height: 30px;
+    padding: 15px 50px;
 }
-.content_ct {  
-	background: url(../images/tooplate_ct.png); 
+.content_ct {
+    background: url(../images/tooplate_ct.png);
 }
-.content { 
-	padding: 30px 50px; 
-	background: url(../images/tooplate_content.png) repeat-y; 
+.content {
+    padding: 30px 50px;
+    background: url(../images/tooplate_content.png) repeat-y;
 }
-.content_bottom { 
-	width: 800px; 
-	height: 49px; 
-	padding-top: 20px;  
+.content_bottom {
+    width: 800px;
+    height: 49px;
+    padding-top: 20px;
 }
-.content_cbf { 
-	background: url(../images/tooplate_gototop_bgl.png); 
+.content_cbf {
+    background: url(../images/tooplate_gototop_bgl.png);
 }
-.content_cb { 
-	background: url(../images/tooplate_gototop_bg.png); 
+.content_cb {
+    background: url(../images/tooplate_gototop_bg.png);
 }
-a.gototop { 
-	display: block; 
-	width: 108px; 
-	margin: 0 auto; 
-	text-align: center; 
-	color: #fff; 
-	font-weight: 700; 
-	text-decoration: none; 
+a.gototop {
+    display: block;
+    width: 108px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
 }
-a.gototop:hover { 
-	text-decoration: underline; 
+a.gototop:hover {
+    text-decoration: underline;
 }
-.col_w340 { width: 340px }
-.post_box { 
-	width: 320px; 
-	margin-bottom: 30px; 
-	padding-bottom: 20px;  
+.col_w340 {
+    width: 340px
 }
-.post_header { 
-	border-top: 3px solid #999; 
-	border-bottom: 1px solid #ccc; 
-	padding: 5px; 
-	margin-bottom: 20px; 
+.post_box {
+    width: 320px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
-.post_box h3 { 
-	font-size: 24px; 
-	line-height: 34px; 
-	margin-bottom: 15px; 
+.post_header {
+    border-top: 3px solid #999;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 20px;
 }
-.post_box img { 
-	float: left; 
-	margin-right: 15px; 
-	width: 80px; 
-	height: 80px; 
-	padding-bottom: 11px; 
-	background: url(../images/tooplate_post_img_bg.jpg) no-repeat; 
+.post_box h3 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 15px;
 }
-.post_box p.post_meta { 
-	font-size: 10px; 
-	margin-bottom: 0; 
-	padding-bottom: 0; 
+.post_box img {
+    float: left;
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+    padding-bottom: 11px;
+    background: url(../images/tooplate_post_img_bg.jpg) no-repeat;
 }
-#gallery { 
-	margin: 0; 
-	padding: 0; 
+.post_box p.post_meta {
+    font-size: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
-#gallery ul { 
-	margin: 0; 
-	padding: 0;
+#gallery {
+    margin: 0;
+    padding: 0;
 }
-#gallery ul li { 
-	display: block; 
-	position: relative; 
-	display: inline-block; 
-	width: 300px; 
-	height: 168px; 
-	margin: 0 15px 30px 15px; 
+#gallery ul {
+    margin: 0;
+    padding: 0;
 }
-#gallery ul img { 
-	z-index: 1000; 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	width: 300px; 
-	height: 150px; 
+#gallery ul li {
+    display: block;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 168px;
+    margin: 0 15px 30px 15px;
 }
-#gallery ul span {  
-	position: absolute; 
-	border: 0; 
-	left: 0; 
-	width: 300px; 
-	height: 168px; 
-	background: url(../images/tooplate_image_bg.jpg) no-repeat; 
+#gallery ul img {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 150px;
 }
-#contact_form { 
-	padding: 0;
-	width: 300px; 
+#gallery ul span {
+    position: absolute;
+    border: 0;
+    left: 0;
+    width: 300px;
+    height: 168px;
+    background: url(../images/tooplate_image_bg.jpg) no-repeat;
 }
-#contact_form form { 
-	margin: 0px; 
-	padding: 0px; 
+#contact_form {
+    padding: 0;
+    width: 300px;
 }
-#contact_form form .input_field { 
-	width: 240px; 
-	padding: 5px; 
-	color: #666; 
-	border: 1px solid #b6b6b6;  
-	background: #fff; 
-	font-family: Tahoma, Geneva, sans-serif; 
-	font-size: 12px; 
+#contact_form form {
+    margin: 0px;
+    padding: 0px;
 }
-#contact_form form label { 
-	display: block; 
-	width: 100px; 
-	margin-right: 10px; 
-	font-size: 13px; 
+#contact_form form .input_field {
+    width: 240px;
+    padding: 5px;
+    color: #666;
+    border: 1px solid #b6b6b6;
+    background: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
 }
-#contact_form form textarea { 
-	width: 288px; 
-	height: 150px; 
-	padding: 5px; 
-	color: #666; 
-	border: 1px solid #b6b6b6;  
-	background: #fff; 
-	font-family: Tahoma, Geneva, sans-serif; 
-	font-size: 12px; 
+#contact_form form label {
+    display: block;
+    width: 100px;
+    margin-right: 10px;
+    font-size: 13px;
 }
-#contact_form form .submit_btn { 
-	background: #559402; 
-	color: #fff; 
-	cursor:pointer; 
-	border: 1px solid #3d6b00; 
-	padding: 2px 5px; 
+#contact_form form textarea {
+    width: 288px;
+    height: 150px;
+    padding: 5px;
+    color: #666;
+    border: 1px solid #b6b6b6;
+    background: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+}
+#contact_form form .submit_btn {
+    background: #559402;
+    color: #fff;
+    cursor:pointer;
+    border: 1px solid #3d6b00;
+    padding: 2px 5px;
 }
 #tooplate_footer {
-	clear: both;
-	width: 800px;
-	padding: 20px 4px;
-	color: #fff;
-	text-align: center;
+    clear: both;
+    width: 800px;
+    padding: 20px 4px;
+    color: #fff;
+    text-align: center;
 }
-#tooplate_footer a { color: #fff }
+#tooplate_footer a {
+    color: #fff
+}
