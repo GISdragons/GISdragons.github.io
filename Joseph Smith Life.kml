@@ -135,12 +135,17 @@
 		<Placemark>
 			<name>Joseph Smith Log Cabin</name>
 			<description>
-				This was the place that Joseph Smith Jr. lived during
-				the time he was investigating different churches. He
-				eventually decided to pray and ask God after reading
-				James 1:5, which reads: "If any of you lack wisdom, 
-				let him ask of God, that giveth to all men liberally, 
-				and upbraideth not; and it shall be given him."
+				<![CDATA[
+					<h6>Joseph Smith Log Cabin</h6>
+					<p>
+						This was the place that Joseph Smith Jr. lived during
+						the time he was investigating different churches. He
+						eventually decided to pray and ask God after reading
+						James 1:5, which reads: "If any of you lack wisdom, 
+						let him ask of God, that giveth to all men liberally, 
+						and upbraideth not; and it shall be given him."
+					</p>
+				]]>
 			</description>
 			<LookAt>
 				<longitude>-77.23912047699672</longitude>
@@ -158,9 +163,10 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Aaronic Priesthood restoration</name>
+			<name>Aaronic Priesthood Restoration</name>
 			<description>
 				<![CDATA[
+					<h6>Aaronic Priesthood Restoration</h6>
 					<p>
 						After Joseph Smith Jr. and Oliver Cowdery were
 						translating the Book of Mormon, they felt impressed
@@ -197,6 +203,7 @@
 			<name>Melchizedek Priesthood Restoration</name>
 			<description>
 				<![CDATA[
+					<h6>Melchizedek Priesthood Restoration</h6>
 					<p>
 						Sometime between the 16 and 28 of May, 1929, Joseph
 						Smith Jr. and Oliver Cowdery were visited by the
@@ -231,6 +238,7 @@
 			<name>Nauvoo, Illinois</name>
 			<description>
 				<![CDATA[
+					<h6>Nauvoo, Illinois</h6>
 					<p>
 						The Nauvoo Temple was the second temple built
 						by the Church of Jesus Christ of Latter Day
@@ -263,6 +271,7 @@
 			<!-- This description is a copy of the Nauvoo Temple Polygon Description -->
 			<description>
 				<![CDATA[
+					<h6>Nauvoo Temple</h6>
 					<p>
 						The Nauvoo Temple was the second temple built
 						by the Church of Jesus Christ of Latter Day
@@ -295,7 +304,14 @@
 		</Placemark>
 		<Placemark>
 			<name>Peter Whitmer house</name>
-			<description>This is where the first meeting of the church was held</description>
+			<description>
+				<![CDATA[
+					<h6>Peter Whitmer house</h6>
+					<p>
+						This is where the first meeting of the church was held
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-76.87149785419362</longitude>
 				<latitude>42.86418551168757</latitude>
@@ -315,6 +331,7 @@
 			<name>Newell K Whitney Store</name>
 			<description>
 				<![CDATA[
+					<h6>Newell K Whitney Store</h6>
 					<p>
 						Joseph Smith lived here for a time and established 
 						the School of the Prophets in one of the upper rooms.
@@ -346,6 +363,7 @@
 			<name>Kirtland Temple</name>
 			<description>
 				<![CDATA[
+					<h6>Kirtland Temple</h6>
 					<p>
 						"The Prophet Joseph dedicated the Kirtland Temple
 						on March 27, 1836, repeating the ceremony several
@@ -385,6 +403,7 @@
 			<name>Caldwell County, Missouri</name>
 			<description>
 				<![CDATA[
+					<h6>Caldwell County, Missouri</h6>
 					<p>
 						Here in Caldwell County, the early LDS church fled here
 						with Joseph Smith Jr., because everyone in the church had been exiled from
@@ -418,10 +437,15 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Far West temple site</name>
+			<name>Far West Temple site</name>
 			<description>
-				This was the place dedicated and set apart for the building
-				of a temple during the era of the saints in Far West, Missouri.
+			<![CDATA[
+				<h6>Far West Temple site</h6>
+				<p>
+					This was the place dedicated and set apart for the building
+					of a temple during the era of the saints in Far West, Missouri.
+				</p>
+			]]>
 			</description>
 			<LookAt>
 				<longitude>-94.13094510344955</longitude>
@@ -440,7 +464,14 @@
 		</Placemark>
 		<Placemark>
 			<name>Liberty Jail</name>
-			<description>Joseph Smith was imprisoned in this jail for approximately five moths</description>
+			<description>
+				<![CDATA[
+					<h6>Liberty Jail</h6>
+					<p>
+						Joseph Smith was imprisoned in this jail for approximately five moths
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-94.42061799999156</longitude>
 				<latitude>39.24843299971148</latitude>
@@ -458,7 +489,14 @@
 		</Placemark>
 		<Placemark>
 			<name>Carthage Jail</name>
-			<description>In this jail the prophet and his brother Hyrum were martyered </description>
+			<description>
+				<![CDATA[
+					<h6>Carthage Jail</h6>
+					<p>
+						In this jail the prophet and his brother Hyrum were martyered
+					</p>
+				]]>
+			</description>
 			<LookAt>
 				<longitude>-91.13926072481658</longitude>
 				<latitude>40.41531538501369</latitude>
@@ -477,8 +515,13 @@
 		<Placemark>
 			<name>The Nauvoo House</name>
 			<description>
-				This is where the Prophet and his brother were
-				secretly buried after their death
+				<![CDATA[
+					<h6>The Nauvoo House</h6>
+					<p>
+						This is where the Prophet and his brother were
+						secretly buried after their death.
+					</p>
+				]]>
 			</description>
 			<LookAt>
 				<longitude>-91.391241833034</longitude>
@@ -497,7 +540,14 @@
 		</Placemark>
 		<Placemark>
 			<name>Zion&apos;s Camp</name>
-			<description>This is the path that the members of Zion&apos;s took on their journey</description>
+			<description>
+			<![CDATA[
+				<h6>Zion's Camp</h6>
+				<p>
+					This is the path that the members of Zion&apos;s took on their journey
+				</p>
+			]]>
+			</description>
 			<styleUrl>#ZionsCampPath</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
@@ -517,36 +567,6 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
-		<name>Hill Cumorah</name>
-		<description>
-				<![CDATA[
-					<h6>Hill Cumorah</h6>
-					<p>
-					The hill named Cumorah in Manchester, New York is where Joseph Smith was directed to obtain
-					the golden plates which contained the writings of the Book of Mormon. The Prophet
-					wrote: "On the west side of this hill, not far from the top, under a stone of considerable size, 
-					lay the plates, deposited in a stone box."
-					</p>
-				]]>
-			</description>
-		<LookAt>
-			<longitude>-77.2229579311289</longitude>
-			<latitude>43.00601898639938</latitude>
-			<altitude>0</altitude>
-			<heading>0.0008871902156659832</heading>
-			<tilt>0</tilt>
-			<range>1057.379647981571</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#bluedot</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-77.2241530949365,43.00608013769071,0</coordinates>
-		</Point>
-	</Placemark>
-</Document>
-</kml>
 	</Folder>
 </Document>
 </kml>
