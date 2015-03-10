@@ -157,7 +157,7 @@
 					</p>
 					<p>
 						To read the full account you can follow this link.
-						<a href="https://www.lds.org/scriptures/pgp/js-h/1?lang=eng">
+						<a href="https://www.lds.org/scriptures/pgp/js-h/1?lang=eng" target="_blank">
 							Joseph Smith - History 1:66-73
 						</a>
 					</p>
@@ -191,7 +191,7 @@
 					</p>
 					<p>
 						To read the full account you can follow this link.
-						<a href="https://www.lds.org/ensign/1996/12/the-restoration-of-the-aaronic-and-melchizedek-priesthoods?lang=eng">
+						<a href="https://www.lds.org/ensign/1996/12/the-restoration-of-the-aaronic-and-melchizedek-priesthoods?lang=eng" target="_blank">
 							The Restoration of the Aaronic and Melchizedek Priesthoods
 						</a>
 					</p>
@@ -225,7 +225,7 @@
 					</p>
 					<p>
 						For More Information feel free to use the link:
-						<a href="https://www.lds.org/search?q=nauvoo+temple&domains=all&lang=eng">
+						<a href="https://www.lds.org/search?q=nauvoo+temple&domains=all&lang=eng" target="_blank">
 							LDS search: "Nauvoo Temple"
 						</a>
 					</p>
@@ -257,7 +257,7 @@
 					</p>
 					<p>
 						For More Information feel free to use the link:
-						<a href="https://www.lds.org/search?q=nauvoo+temple&domains=all&lang=eng">
+						<a href="https://www.lds.org/search?q=nauvoo+temple&domains=all&lang=eng" target="_blank">
 							LDS search: "Nauvoo Temple"
 						</a>
 					</p>
@@ -306,7 +306,7 @@
 					</p>
 					<p>
 						For more information, follow this link:
-						<a href="https://www.lds.org/locations/historic-kirtland-visitors-center">
+						<a href="https://www.lds.org/locations/historic-kirtland-visitors-center" target="_blank">
 							Historic Kirtland Visitors' Center
 						</a>
 					</p>
@@ -345,7 +345,7 @@
 					</p>
 					<p>
 						For more information, follow this link:
-						<a href="https://history.lds.org/article/historic-sites-ohio-kirtland-temple-kirtland?lang=eng">
+						<a href="https://history.lds.org/article/historic-sites-ohio-kirtland-temple-kirtland?lang=eng" target="_blank">
 							Historic Sites: Kirtland Temple
 						</a>
 					</p>
@@ -381,7 +381,7 @@
 							Caldwell County, Missouri 
 						</a>
 						and
-						<a href="http://josephsmithpapers.org/paperSummary/letter-to-the-church-in-caldwell-county-missouri-16-december-1838">
+						<a href="http://josephsmithpapers.org/paperSummary/letter-to-the-church-in-caldwell-county-missouri-16-december-1838" target="_blank">
 							Letter to the Church in Caldwell County, Missouri, 16 December 1838
 						</a>
 					</p>
@@ -404,7 +404,10 @@
 		</Placemark>
 		<Placemark>
 			<name>Far West temple site</name>
-			<description>This was the place dedicated and set apart for the building of a temple during the era of the saints in Far West, Missouri</description>
+			<description>
+				This was the place dedicated and set apart for the building
+				of a temple during the era of the saints in Far West, Missouri.
+			</description>
 			<LookAt>
 				<longitude>-94.13094510344955</longitude>
 				<latitude>39.67129361410358</latitude>
@@ -458,7 +461,10 @@
 		</Placemark>
 		<Placemark>
 			<name>The Nauvoo House</name>
-			<description>This is where the Prophet and his brother were secretly buried after their death</description>
+			<description>
+				This is where the Prophet and his brother were
+				secretly buried after their death
+			</description>
 			<LookAt>
 				<longitude>-91.391241833034</longitude>
 				<latitude>40.54002235402124</latitude>
