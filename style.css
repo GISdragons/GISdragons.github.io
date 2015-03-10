@@ -238,6 +238,15 @@ p {
     color: #e0ffff;
     /* color: #e0ffff; = Light Cyan */
 }
+.a1, .a1:link, .a1:visited {
+    color: white;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.a1:hover {
+    color: pink;
+    text-decoration: none;
+    
 img {
     border: none;
 }
