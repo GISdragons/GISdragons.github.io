@@ -517,6 +517,25 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
+		<Placemark>
+		<name>Hill Cumorah</name>
+		<LookAt>
+			<longitude>-77.2229579311289</longitude>
+			<latitude>43.00601898639938</latitude>
+			<altitude>0</altitude>
+			<heading>0.0008871902156659832</heading>
+			<tilt>0</tilt>
+			<range>1057.379647981571</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#bluedot</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-77.2241530949365,43.00608013769071,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
 	</Folder>
 </Document>
 </kml>
