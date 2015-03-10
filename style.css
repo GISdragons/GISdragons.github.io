@@ -50,20 +50,19 @@ http://www.tooplate.com/view/2050-blue-spark
       .ol-popup-closer:after {
         content: "✖";
       }
-      
-  .styled-select select {
-   background: white;
-   width: 350px;
-   padding: 5px;
-   font-size: 18px;
-   line-height: 1;
-   border: 0;
-   border-radius: 0;
-   height: 34px;
-   }
+   /* End of style that used to be in head part of html */    
   
- /* End of style that used to be in head part of html */
- 
+      .styled-select select {
+	   background: white;
+	   width: 350px;
+	   padding: 5px;
+	   font-size: 18px;
+	   line-height: 1;
+	   border: 0;
+	   border-radius: 0;
+	   height: 34px;
+      }
+  
  /*
  Going to try a button class that will help give the buttons some style.
  */
@@ -79,8 +78,8 @@ http://www.tooplate.com/view/2050-blue-spark
   border-radius: 5px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
   text-decoration: none;
 }
 .btn:hover {
