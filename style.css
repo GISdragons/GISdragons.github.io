@@ -205,7 +205,7 @@ End of Table Class
     font-size: 12px;
     line-height: 1.5em;
     background-color: #0c2436;
-    background-image: url(../images/tooplate_wrapper.jpg);
+    /*background-image: url(../images/tooplate_wrapper.jpg);*/
     background-repeat: repeat-x;
     background-position: top center;
     text-align: center;
