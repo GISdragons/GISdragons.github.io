@@ -232,7 +232,7 @@ p {
 }
 /* an attempt at creating a p-type class */
 .p1 {
-    font-size: 34px;
+    font-size: 12px;
     margin: 1px 1px 10px 1px;
     padding: 1px;
     color: #e0ffff;
