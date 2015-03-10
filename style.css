@@ -230,6 +230,13 @@ p {
     color: black;
     /* color: #e0ffff; = Light Cyan */
 }
+/* an attempt at creating a p-type class */
+.p1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #e0ffff;
+    /* color: #e0ffff; = Light Cyan */
+}
 img {
     border: none;
 }
