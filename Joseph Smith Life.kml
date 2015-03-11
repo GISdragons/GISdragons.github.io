@@ -18,7 +18,7 @@
 			<Icon>
 				<href>nauvootemple.png</href>
 			</Icon>
-			<scale>0.01</scale>
+			<scale>0.017</scale>
 			
 			<!-- hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ -->
 		</IconStyle>
