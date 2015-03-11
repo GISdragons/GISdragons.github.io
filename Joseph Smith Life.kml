@@ -50,7 +50,7 @@
 			<name>Birthplace</name>
 			<description>
 				<![CDATA[
-					<h6>Birthplace</h6>
+					<div class="new_h4">Birthplace</div>
 					<p>
 						Joseph Smith Jr. was born on
 						December 23, 1805 in Sharon, Vermont
@@ -77,7 +77,7 @@
 			<name>Sacred Grove</name>
 			<description>
 				<![CDATA[
-					<h6>Sacred Grove</h6>
+					<div class="new_h4">Sacred Grove</div>
 					<p>
 						In the Spring of 1820, Joseph Smith went into
 						a grove of trees to know which church was true.
@@ -109,7 +109,7 @@
 			<name>Topsfield, MA</name>
 			<description>
 				<![CDATA[
-					<h6>Topsfield, MA</h6>
+					<div class="new_h4">Topsfield, MA</div>
 					<p>
 						Joseph Smith Sr. was born on July 12, 1771
 						in Topsfield, Massachusetts. 5 previous generations
@@ -136,7 +136,7 @@
 			<name>Joseph Smith Log Cabin</name>
 			<description>
 				<![CDATA[
-					<h6>Joseph Smith Log Cabin</h6>
+					<div class="new_h4">Joseph Smith Log Cabin</div>
 					<p>
 						This was the place that Joseph Smith Jr. lived during
 						the time he was investigating different churches. He
@@ -166,7 +166,7 @@
 			<name>Aaronic Priesthood Restoration</name>
 			<description>
 				<![CDATA[
-					<h6>Aaronic Priesthood Restoration</h6>
+					<div class="new_h4">Aaronic Priesthood Restoration</div>
 					<p>
 						After Joseph Smith Jr. and Oliver Cowdery were
 						translating the Book of Mormon, they felt impressed
@@ -203,7 +203,7 @@
 			<name>Melchizedek Priesthood Restoration</name>
 			<description>
 				<![CDATA[
-					<h6>Melchizedek Priesthood Restoration</h6>
+					<div class="new_h4">Melchizedek Priesthood Restoration</div>
 					<p>
 						Sometime between the 16 and 28 of May, 1929, Joseph
 						Smith Jr. and Oliver Cowdery were visited by the
@@ -238,7 +238,7 @@
 			<name>Nauvoo, Illinois</name>
 			<description>
 				<![CDATA[
-					<h6>Nauvoo, Illinois</h6>
+					<div class="new_h4">Nauvoo, Illinois</div>
 					<p>
 						Nauvoo, Illinois was a city the prophet Joseph
 						Smith Jr. established as a gathering place for the
@@ -270,7 +270,7 @@
 			<!-- This description is a copy of the Nauvoo Temple Polygon Description -->
 			<description>
 				<![CDATA[
-					<h6>Nauvoo Temple</h6>
+					<div class="new_h4">Nauvoo Temple</div>
 					<p>
 						The Nauvoo Temple was the second temple built
 						by the Church of Jesus Christ of Latter Day
@@ -305,7 +305,7 @@
 			<name>Peter Whitmer house</name>
 			<description>
 				<![CDATA[
-					<h6>Peter Whitmer house</h6>
+					<div class="new_h4">Peter Whitmer house</div>
 					<p>
 						This is where the first meeting of the church was held
 					</p>
@@ -330,7 +330,7 @@
 			<name>Newell K Whitney Store</name>
 			<description>
 				<![CDATA[
-					<h6>Newell K Whitney Store</h6>
+					<div class="new_h4">Newell K Whitney Store</div>
 					<p>
 						Joseph Smith lived here for a time and established 
 						the School of the Prophets in one of the upper rooms.
@@ -362,7 +362,7 @@
 			<name>Kirtland Temple</name>
 			<description>
 				<![CDATA[
-					<h6>Kirtland Temple</h6>
+					<div class="new_h4">Kirtland Temple</div>
 					<p>
 						"The Prophet Joseph dedicated the Kirtland Temple
 						on March 27, 1836, repeating the ceremony several
@@ -402,7 +402,7 @@
 			<name>Caldwell County, Missouri</name>
 			<description>
 				<![CDATA[
-					<h6>Caldwell County, Missouri</h6>
+					<div class="new_h4">Caldwell County, Missouri</div>
 					<p>
 						Here in Caldwell County, the early LDS church fled here
 						with Joseph Smith Jr., because everyone in the church had been exiled from
@@ -438,13 +438,13 @@
 		<Placemark>
 			<name>Far West Temple site</name>
 			<description>
-			<![CDATA[
-				<h6>Far West Temple site</h6>
-				<p>
-					This was the place dedicated and set apart for the building
-					of a temple during the era of the saints in Far West, Missouri.
-				</p>
-			]]>
+				<![CDATA[
+					<div class="new_h4">Far West Temple site</div>
+					<p>
+						This was the place dedicated and set apart for the building
+						of a temple during the era of the saints in Far West, Missouri.
+					</p>
+				]]>
 			</description>
 			<LookAt>
 				<longitude>-94.13094510344955</longitude>
@@ -465,7 +465,7 @@
 			<name>Liberty Jail</name>
 			<description>
 				<![CDATA[
-					<h6>Liberty Jail</h6>
+					<div class="new_h4">Liberty Jail</div>
 					<p>
 						Joseph Smith was imprisoned in this jail for approximately five moths
 					</p>
@@ -490,7 +490,7 @@
 			<name>Carthage Jail</name>
 			<description>
 				<![CDATA[
-					<h6>Carthage Jail</h6>
+					<div class="new_h4">Carthage Jail</div>
 					<p>
 						In this jail the prophet and his brother Hyrum were martyered
 					</p>
@@ -515,7 +515,7 @@
 			<name>The Nauvoo House</name>
 			<description>
 				<![CDATA[
-					<h6>The Nauvoo House</h6>
+					<div class="new_h4">The Nauvoo House</div>
 					<p>
 						This is where the Prophet and his brother were
 						secretly buried after their death.
@@ -540,12 +540,12 @@
 		<Placemark>
 			<name>Zion&apos;s Camp</name>
 			<description>
-			<![CDATA[
-				<h6>Zion's Camp</h6>
-				<p>
-					This is the path that the members of Zion&apos;s took on their journey
-				</p>
-			]]>
+				<![CDATA[
+					<div class="new_h4">Zion's Camp</div>
+					<p>
+						This is the path that the members of Zion&apos;s took on their journey
+					</p>
+				]]>
 			</description>
 			<styleUrl>#ZionsCampPath</styleUrl>
 			<LineString>
@@ -570,7 +570,7 @@
 		<name>Hill Cumorah</name>
 		<description>
 			<![CDATA[
-				<h6>Hill Cumorah</h6>
+				<div class="new_h4">Hill Cumorah</div>
 				<p>
 					The hill named Cumorah in Manchester, New York is where Joseph
 					Smith was directed to obtain
