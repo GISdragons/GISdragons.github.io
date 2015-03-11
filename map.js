@@ -69,7 +69,7 @@ function clicked(ID) {
 	myFeature = JSLife.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
 	myView = map.getView();
-	myView.setCenter(myCoords);
+	myView.setBottom(myCoords);
 	myView.setZoom(15);
 	JSLife.getSource().getFeatures()[ID]
 	overlay.setPosition(myCoords);
