@@ -582,7 +582,11 @@
 		</Placemark>
 		<Placemark>
 			<name>Zion&apos;s Camp</name>
-			<description>This is the path that the members of Zion&apos;s took on their journey</description>
+			<description>Zion's Camp was a Latter-day Saint expedition from Kirtland, Ohio,
+			to Clay County, Missouri, during May and June 1834. The Mormon settlers in adjacent
+			Jackson County, Missouri, had been driven out in the fall of 1833 by hostile 
+			non-Mormon elements. The camp was to bring money, supplies, and moral support
+			to the destitute Saints.</description>
 			<styleUrl>#ZionsCampPath2</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
