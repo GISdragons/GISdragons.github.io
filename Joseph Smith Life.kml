@@ -402,7 +402,7 @@
 				<range>301.1526949243551</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#bluedot</styleUrl>
+			<styleUrl>#kirtlandtemple</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-81.36222425637195,41.6253006224157,0</coordinates>
