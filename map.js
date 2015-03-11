@@ -79,7 +79,7 @@ function clicked(ID) {
 
 function showData() {
 	//place the bubble in the middle of the line somewhere
-	myFeature = JSLife.getSource().getFeatures()[0];
+	myFeature = JSLife.getSource().getFeatures()[13];
 	myCoords = myFeature.getGeometry().getCoordinates();
 	myView = map.getView();
 	//find a vertex half way down the line, roughly
@@ -87,7 +87,7 @@ function showData() {
 	midCoord = myCoords[midCoordIndex];
 	myView.setCenter(midCoord);
 	myView.setZoom(15);
-	JSLife.getSource().getFeatures()[0]
+	JSLife.getSource().getFeatures()[13]
 	overlay.setPosition(midCoord);
 	var displaycontent = myFeature.get('description');
 	content.innerHTML = displaycontent;
