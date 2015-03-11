@@ -23,6 +23,16 @@
 			<!-- hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ -->
 		</IconStyle>
 	</Style>
+	<Style id="kirtlandtemple">
+		<IconStyle>
+			<Icon>
+				<href>kirtlandtemple.png</href>
+			</Icon>
+			<scale>0.017</scale>
+			
+			<!-- hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ -->
+		</IconStyle>
+	</Style>
 	<Style id="ZionsCampPath">
 		<LineStyle>
 			<color>7f0000ff</color>
