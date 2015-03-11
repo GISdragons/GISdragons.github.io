@@ -2,24 +2,7 @@
 Template 2050 Blue Spark
 http://www.tooplate.com/view/2050-blue-spark
 */
-h1 {
-    color: #ffffff;
-    font-size: 34px;
-    margin: 0 0 20px;
-    padding: 5px 0
-}
-h2 {
-    color: #ffffff;
-    font-size: 28px;
-    margin: 0 0 20px;
-    padding: 5px 0 10px 0;
-}
-h3 {
-    color: #ffffff;
-    font-size: 20px;
-    margin: 0 0 15px;
-    padding: 0;
-}
+
 /* new headers since the normal ones are being buggy */
 .new_h1 {
 	font-weight: normal;
