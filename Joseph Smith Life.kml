@@ -61,11 +61,13 @@
 			<description>
 				<![CDATA[
 					<div class="new_h4">Birthplace</div>
+					<p><img src="birthplace.png" </p>
 					<p>
 						Joseph Smith Jr. was born on
 						December 23, 1805 in Sharon, Vermont
 						to Lucy Mack Smith and Joseph Smith Sr.
 					</p>
+				        
 				]]>
 			</description>
 			<LookAt>
