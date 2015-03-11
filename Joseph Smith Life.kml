@@ -90,6 +90,7 @@
 			<description>
 				<![CDATA[
 					<div class="new_h4">Sacred Grove</div>
+					<p><img src="sacredgrove.png" width="250" hight="160"></p>
 					<p>
 						In the Spring of 1820, Joseph Smith went into
 						a grove of trees to know which church was true.
@@ -583,6 +584,7 @@
 		<description>
 			<![CDATA[
 				<div class="new_h4">Hill Cumorah</div>
+				<p><img src="hillcumorah.png" width="250" hight="160"></p>
 				<p>
 					The hill named Cumorah in Manchester, New York is where Joseph
 					Smith was directed to obtain
