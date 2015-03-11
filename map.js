@@ -86,7 +86,7 @@ function showData() {
 	midCoordIndex = parseInt(myCoords.length/2);
 	midCoord = myCoords[midCoordIndex];
 	myView.setCenter(midCoord);
-	myView.setZoom(12);
+	myView.setZoom(7);
 	JSLife.getSource().getFeatures()[13]
 	overlay.setPosition(midCoord);
 	var displaycontent = myFeature.get('description');
