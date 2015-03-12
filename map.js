@@ -93,6 +93,21 @@ function showData() {
 	content.innerHTML = displaycontent;
 }
 
+function showData2() {
+	//place the bubble in the middle of the line somewhere
+	myFeature = JSLife.getSource().getFeatures()[13];
+	myCoords = myFeature.getGeometry().getCoordinates();
+	myView = map.getView();
+	//find a vertex half way down the line, roughly
+	midCoordIndex = parseInt(myCoords.length/2);
+	midCoord = myCoords[midCoordIndex];
+	myView.setCenter(midCoord);
+	myView.setZoom(7);
+	JSLife.getSource().getFeatures()[13]
+	overlay.setPosition(midCoord);
+	var displaycontent = myFeature.get('description');
+	content.innerHTML = displaycontent;
+}
 
 
 /** Trying to find a fetaure on a "click" event */
