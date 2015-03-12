@@ -68,7 +68,7 @@ var map = new ol.Map({
 function clicked(ID) {
 	myFeature = JSLife.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
-	myCoords[1] -= 600
+	myCoords[1] += 600
 	myView = map.getView();
 	myView.setCenter(myCoords);
 	myView.setZoom(15);
