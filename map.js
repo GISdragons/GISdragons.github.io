@@ -23,7 +23,7 @@ var projection = ol.proj.get('EPSG:3857');
 
 /**Here we are declaring the background as a separate object to put in the map */
 var background = new ol.layer.Tile({
-    source: new ol.source.MapQuest({layer: 'sat'})
+    source: new ol.source.BingMaps({layer: 'sat'})
 });
 
 /** Here we create the layer for the JS information */
