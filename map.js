@@ -68,11 +68,12 @@ var map = new ol.Map({
 function clicked(ID) {
 	myFeature = JSLife.getSource().getFeatures()[ID];
 	myCoords = myFeature.getGeometry().getCoordinates();
-	myCoords[1] -= 300
+	myCoords[1] -= 600
 	myView = map.getView();
 	myView.setCenter(myCoords);
 	myView.setZoom(15);
 	JSLife.getSource().getFeatures()[ID]
+	myCoords[1] -= 600
 	overlay.setPosition(myCoords);
 	var displaycontent = myFeature.get('description');
 	content.innerHTML = displaycontent;
