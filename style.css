@@ -196,6 +196,7 @@ img {
 blockquote {
     font-style: italic;
     margin: 0 0 0 10px;
+    text-align: left;
 }
 cite {
     font-weight: bold;
