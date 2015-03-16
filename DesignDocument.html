@@ -132,7 +132,7 @@
 			<li>KML (Keyhole Markup Language)</li>
 		</ul>
 	</div>
-	<img src="Software_Structure.jpg" style="width: 80%">
+	<img src="Software_Structure.jpg" style="width: 70%">
 	<div class="p1">
 		As shown in the Figure above:
 		The HTML and CSS are the base to this project, making up most of the code and formatting behind the website.
@@ -306,6 +306,19 @@ function showData2() {
 			</code>
 		</pre>
 	</blockquote>
+	
+	<div class="p1">
+		The following UML Diagram shows how the user basically interacts with the JavaScript:
+	</div>
+	<img src="UML_Sequence_Diagram.png" style="width: 70%">
+	<div class="p1">
+		The user selects the placemark that they want to go to, either from the buttons or combo list available.
+		Next, the buttons access our map.js file, which has the functions which will process the KML. Based on the
+		given button or item selected, an ID has been assigned which identifies the wanted KML placemark inside
+		the KML file. We then access the description tag from the wanted KML placemark. We insert all the necessary
+		information into a style sheet to format it, insert it into our div tag for the popup, and display the popup
+		content at the zoomed location for the user to read and interact with.
+	</div>
 	<!-- Finally showing the KML coding -->
 	<div class="new_h3">KML Code</div>
 	<div class="p1">
