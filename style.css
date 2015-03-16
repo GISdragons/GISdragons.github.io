@@ -136,6 +136,9 @@ pre{
   padding-bottom: 20px!ie7;
   max-height: 600px;
 }
+code{
+  text-align: left;
+}
 /* end of pre css */
  body {
     margin: 0;
