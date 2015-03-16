@@ -126,6 +126,7 @@ http://www.tooplate.com/view/2050-blue-spark
 /* trying to show example code in documentation */
 pre{
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  text-align: left;
   margin-bottom: 10px;
   overflow: auto;
   width: auto;
