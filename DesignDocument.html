@@ -172,6 +172,76 @@
 	</div>
 	
 	<div class="new_h2">What are the key classes and functions?</div>
+	<!-- First showing the HTML coding -->
+	<div class="new_h3">HTML Code</div>
+	<div class="p1">
+		For our HTML code, we found that most of the unique tags and formatting where to be done using div tags. We
+		had several different classes that we created and accessed from the CSS code. Some examples of how we used
+		the div tags are for the map, custom paragraphs, and custom headers. The following is an example of how this text
+		is using a div tag.
+	</div>
+	<blockquote>
+		<pre>
+			<code>
+&lt;div class="p1"&gt;
+	(input text here)
+&lt;/div&gt;
+			</code>
+		</pre>
+	</blockquote>
+
+	<!-- Then showing the CSS coding -->
+	<div class="new_h3">CSS Code</div>
+	<div class="p1">
+		In our CSS code, we needed to create and format several different new classes to accomadate the formatting
+		we wanted to display on our website. This would allow us to change the formatting in one place, but have the
+		style be uniform accross our website. The following is some sample code of our website of the custom headers
+		we used accross the website:
+	</div>
+	<blockquote>
+		<pre>
+			<code>
+/* new headers since the normal ones are being buggy */
+.new_h1 {
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	font-size: 34px;
+	margin: 0 0 20px;
+	padding: 5px 0
+}
+.new_h2 {
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	margin: 0 0 15px;
+	padding: 5px 0
+}
+.new_h3 {
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	margin: 0 0 10px;
+	padding: 5px 0
+}
+.new_h4 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 0 5px;
+	padding: 0;
+	color: black;
+	font-weight: bold;
+}
+/* end of new headers css */
+			</code>
+		</pre>
+	</blockquote>
+	
+	<!-- Next showing the JavaScript coding -->
+	<div class="new_h3">JavaScript Code</div>
 	<div class="p1">
 		
 	</div>
@@ -180,19 +250,57 @@
 	<blockquote>
 		<pre>
 			<code>
-My pre-formatted "quoted" code here.
+My pre-formatted "quoted" code here. NOT FINISHED YET!!!!
 &lt;div class="p1"&gt;
 	
 &lt;/div&gt;
 			</code>
 		</pre>
 	</blockquote>
-	
 	<div class="new_h2">Why is it designed this way?</div>
 	<div class="p1">
 		
 	</div>
-	
+
+	<!-- Finally showing the KML coding -->
+	<div class="new_h3">KML Code</div>
+	<div class="p1">
+		The unique part of our KML coding was using the description tag for each of the different placemarks inside
+		our pop-ups. KML has it's own unique way of coding this, but using a "CDATA" tag inside the KML allowed us to
+		us our HTML and CSS to format our text inside the pop-ups. The following is an example of how this can be done.
+	</div>
+	<blockquote>
+		<pre>
+			<code>
+&lt;description&gt;
+&lt;![CDATA[
+	&lt;div class="new_h4"&gt;Aaronic Priesthood Restoration&lt;/div&gt;
+	&lt;p&gt;&lt;img src="aaronic.jpg" width="250" hight="160"&gt; &lt;/p&gt;
+	&lt;p&gt;
+		After Joseph Smith Jr. and Oliver Cowdery were
+		translating the Book of Mormon, they felt impressed
+		to go pray in May of 1829 about batism and the
+		remission of sins that had been mentioned in the Golden
+		Plates. While praying, John the Baptist visited them as
+		a resurrected being and conferred the Aaronic Priesthood,
+		or preparatory priesthood, upon both of them.
+	&lt;/p&gt;
+	&lt;p&gt;
+		To read the full account you can follow this link.
+		&lt;a href="https://www.lds.org/scriptures/pgp/js-h/1?lang=eng" target="_blank"&gt;
+			Joseph Smith - History 1:66-73
+		&lt;/a&gt;
+	&lt;/p&gt;
+]]&gt;
+&lt;/description&gt;
+			</code>
+		</pre>
+	</blockquote>
+	<div class="new_h2">Why is it designed this way?</div>
+	<div class="p1">
+		
+	</div>
+
 	<div class="new_h2">What are the main user interface elements?</div>
 	<div class="p1">
 		
