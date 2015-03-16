@@ -1,84 +1,132 @@
 <!-- doctype html -->
 <html lang="en">
-  <head>
-      <link rel="stylesheet" href="style.css"> <!-- our personal css stylesheet for the HTML -->
-      <title>User Documentation</title>
-  </head>
-  <body>
-      <br>
-      <div class="new_h1">Software Design Document</div>
-      <br>
-      <div class="new_h2">How was the software built?</div>
-      
-      <div class="p1">
-      	This website was built using godaddy.com to find a domain name
-      	and Github pages to host this website.
-      </div>
-      
-      <div class="new_h3">Domain Name</div>
-      <div class="p1">
-      	Our domain name of “mormonhistorygis.com” was purchased from 
-      	<a href="https://www.godaddy.com/" target="_blank"
-      	style="color:white">godaddy.com</a> for 1 dollar a month for 12
-      	months. With this deal we also received access to their website
-      	builder. Their website builder, however, it did not provided
-      	access to the basic HTML, JavaScript, and CSS control that we
-      	wanted to have.
-      </div>
-      
-      <div class="new_h3">Hosting</div>
-      <div class="p1">
-      	We decided to use <a href="https://pages.github.com/" 
-      	target="_blank" style="color:white" >Github Pages</a> to host our
-      	HTML, JavaScript, CSS, and other files so that we could have full
-      	control over the content and display of our website. This hosting
-      	is provided for free as long as the code is open source. Our
-      	repository setup on Github is named <a href="https://github.com/GISdragons/GISdragons.github.io"
-      	target="_blank" style="color:white" >GISdragons.githb.io</a>.
-      	Our set-up for the website was done in the following way:
-      </div>
-      
-      <div class="new_h3">Set-up</div>
-      <div class="p1">
-      	Using the site manager provided by godaddy.com, we went to the
-      	“DNS Zone File” to change some settings to point to the Github
-      	Pages server and our Github Repository. Here on this website we
-      	had to change two sections. First, the “A (Host)” section needed
-      	to point to the Github Pages IP address. This was done by deleting
-      	the default address and adding the “@” name to “19.230.252.153”.
-      	The “CName (Alias)” section was also changed. The default “www”
-      	pointer was changed to point to our repository named
-      	“GISdragons.github.io”.
-      </div>
+<head>
+	<link rel="stylesheet" href="style.css"> 
+	<!-- our personal css stylesheet for the HTML -->
+	<title>Documentation</title>
+</head>
+
+<body>
+	<br>
+	<div class="new_h1">Technical Specifications</div>
+	<br>
+	<div class="new_h2">How was the software built?</div>
+	<div class="p1">
+		This website was built using godaddy.com to find a domain name
+		and Github pages to host this website.
+	</div>
+
+	<div class="new_h3">Domain Name</div>
+	<div class="p1">
+		Our domain name of "mormonhistorygis.com" was purchased from 
+		<a href="https://www.godaddy.com/" target="_blank"
+		style="color:white">godaddy.com</a> for 1 dollar a month for 12
+		months. With this deal we also received access to their website
+		builder. Their website builder, however, it did not provided
+		access to the basic HTML, JavaScript, and CSS control that we
+		wanted to have.
+	</div>
+
+	<div class="new_h3">Hosting</div>
+	<div class="p1">
+		We decided to use <a href="https://pages.github.com/" 
+		target="_blank" style="color:white" >Github Pages</a> to host our
+		HTML, JavaScript, CSS, and other files so that we could have full
+		control over the content and display of our website. This hosting
+		is provided for free as long as the code is open source. Our
+		repository setup on Github is named <a href="https://github.com/GISdragons/GISdragons.github.io"
+		target="_blank" style="color:white" >GISdragons.githb.io</a>.
+		Our set-up for the website was done in the following way:
+	</div>
+
+	<div class="new_h3">Set-up</div>
+	<img src="DNS_Zone_File.jpg">
+	<!-- Remember to add the picture Stephen :) -->
+	<div class="p1">
+		Using the site manager provided by godaddy.com, we went to the
+		"DNS Zone File" to change some settings to point to the Github
+		Pages server and our Github Repository. Here on this website we
+		had to change two sections. First, the "A (Host)" section needed
+		to point to the Github Pages IP address. This was done by deleting
+		the default address and adding the "@" name to "19.230.252.153".
+		The "CName (Alias)" section was also changed. The default "www"
+		pointer was changed to point to our repository named
+		"GISdragons.github.io". (NOTE: Github recommends that you do NOT
+		change both if you want to keep the emailing system for your
+		website. Refer to their help pages on A and CName files to find
+		out specifically what you need to do for your situation. For our
+		website, it was necessary to change both to get the hosting to
+		work)
+	</div>
 
 	<div class="p1">
 		For the Github pages, since there are two main creators of the
 		website, we made a Github Organization so that both could edit and
-		manage the website files.
+		manage the website files. We chose the name "GISdragons". Next,
+		we needed to create a repository. Following the Github pages
+		recommendation, we created the repository name
+		"GISdragons.github.io". This repository name was used because it
+		was our group name, followed by the ".github.io" to help show that
+		it was a Github Pages hosting repository. Inside this repository,
+		it was required for us to set-up a "A" and "CNAME" files that only
+		contained our website domain "mormonhistorygis.com". Also inside
+		our repository, we needed to have an "index.html" file that is the
+		main page for website.
 	</div>
 
-      <div class="p1">
-        For each of your three projects you will conduct this semester, you will be required ot submit technical and design documentation when the project is complete. The document should be 3-6 pages and is intended to communciate the following information:
-        Technical Specifications
-        Target audience for this information is an "IT guy" who might install and provide technical support to your users
-        How was the software built?
-        Who built it?
-        What is it's license?
-        How does it get compiled?
-        How does it get installed?
-        What are the hardware and software limitations/requirements?
-        Where can one get it? 
-        Software Design
-        Target audience for this information is a follow-on programmer who will debug or add more code to your program
-        What is the purpose of the software?
-        What is the software structure?
-        What are the main files?
-        What are the key classes and functions?
-        Why is it designed this way?
-        What are the main user interface elements?
-        What is their purpose? 
-        You may structure your technical and design document however you like, as long as it has the elements described above. Feel free to use screen captures and figures where appropriate to communicate the required information. However remember that any figure you show needs to be explained in the text.
-        Please include at least two design figures such as a complete geoprocessing ModelBuilder workflow, a Program Flow Chart, a UML Sequence Diagram, or UML Class Diagram. You can use PowerPoint or another tool to draw your figures. Gliffy is a web based diagram drawing tool that you might find very useful. http://www.gliffy.com/uses/uml-software
-      </div>
-  </body>
+	<div class="p1">
+		By using the following method, we were able to host our website at
+		a different location than where we purchased the domain name,
+		without the domain name changing to the location of our hosting.
+		Also, it the hosting was free, which in the long run could lower
+		future cost as it does cost more to keep the domain name and hosting
+		for the website.
+	</div>
+
+	<div class="new_h2">Who built it?</div>
+	<div class="p1">
+		This website was created by Stephen Duncan and Preston Merrell.
+	</div>
+
+	<div class="new_h2">What is it's license?</div>
+	<div class="p1">
+		This Joseph Smith GIS Project is licensed under a
+		<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:white" >
+		Creative Commons Attribution 4.0 International License</a>. 
+		
+		Based on a work at mormonhistorygis.com.
+	</div>
+
+	<div class="new_h2">What are the hardware and software limitations/requirements?</div>
+	<div class="p1">
+		The limitations of our website and software are that they are based
+		on our limited knowledge of HTML, JavaScript, CSS, and KML as well
+		as our limited knowledge of the life of Joseph Smith. We have based
+		our website on just a few significant places from the life of the
+		prophet Joseph Smith Jr. If you would like a more significant view
+		on his life, you can visit <a href="https://www.lds.org/?lang=eng"
+		target="_blank" style="color:white" >LDS.org</a> or any other
+		website sponsored by The Church of Jesus Christ of Latter-Day
+		Saints.
+	</div>
+
+	<br>
+	<div class="new_h1">Software Design</div>
+	<br>
+
+	<div class="new_h2">What is the purpose of the software?</div>
+	<div class="new_h2">What is the software structure?</div>
+	<div class="new_h2">What are the main files?</div>
+	<div class="new_h2">What are the key classes and functions?</div>
+	<div class="new_h2">Why is it designed this way?</div>
+	<div class="new_h2">What are the main user interface elements?</div>
+	<div class="new_h2">What is their purpose?</div>
+	
+	<!-- You may structure your technical and design document however you
+	like, as long as it has the elements described above. Feel free to use
+	screen captures and figures where appropriate to communicate the required
+	information. However remember that any figure you show needs to be
+	explained in the text. -->
+	
+	</body>
 </html>
