@@ -272,8 +272,10 @@ p {
     text-align: left;
     margin: 1px 1px 10px 1px;
     padding: 1px;
-    color: #e0ffff;
     /* color: #e0ffff; = Light Cyan */
+    color: #e0ffff;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .a1, .a1:link, .a1:visited {
     color: white;
