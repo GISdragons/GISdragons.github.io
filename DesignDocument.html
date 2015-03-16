@@ -243,25 +243,70 @@
 	<!-- Next showing the JavaScript coding -->
 	<div class="new_h3">JavaScript Code</div>
 	<div class="p1">
-		
+		In our JavaScript, we needed to create some functions that could interact with our website. These functions are
+		what allow the combo box list and buttons to zoom to and display the pop-up for each placemark in the KML
+		file. We needed two different functions for some of the different types of placemarks we had. One for the
+		points and another for the polylines and polygons.
 	</div>
-	
-	<!-- showing some sample code here -->
+	<div class="p1">
+		For the points, we used the following function for both the list and buttons:
+	</div>
 	<blockquote>
 		<pre>
 			<code>
-My pre-formatted "quoted" code here. NOT FINISHED YET!!!!
-&lt;div class="p1"&gt;
-	
-&lt;/div&gt;
+function clicked(ID) {
+	myFeature = JSLife.getSource().getFeatures()[ID];
+	myCoords = myFeature.getGeometry().getCoordinates();
+	myView = map.getView();
+	myView.setCenter(myCoords);
+	myView.setZoom(15);
+	JSLife.getSource().getFeatures()[ID]
+	overlay.setPosition(myCoords);
+	var displaycontent = myFeature.get('description');
+	content.innerHTML = displaycontent;
+}
 			</code>
 		</pre>
 	</blockquote>
-	<div class="new_h2">Why is it designed this way?</div>
-	<div class="p1">
-		
+<div class="p1">
+		For the polyline and polygon, we used the following functions for both the list and buttons:
 	</div>
-
+	<blockquote>
+		<pre>
+			<code>
+function showData() {
+	//place the bubble in the middle of the line somewhere
+	myFeature = JSLife.getSource().getFeatures()[13];
+	myCoords = myFeature.getGeometry().getCoordinates();
+	myView = map.getView();
+	//find a vertex half way down the line, roughly
+	midCoordIndex = parseInt(myCoords.length/2);
+	midCoord = myCoords[midCoordIndex];
+	myView.setCenter(midCoord);
+	myView.setZoom(7);
+	JSLife.getSource().getFeatures()[13]
+	overlay.setPosition(midCoord);
+	var displaycontent = myFeature.get('description');
+	content.innerHTML = displaycontent;
+}
+function showData2() {
+	//place the bubble in the middle of the line somewhere
+	myFeature = JSLife.getSource().getFeatures()[5];
+	myCoords = myFeature.getGeometry().getCoordinates();
+	myView = map.getView();
+	//find a vertex half way down the line, roughly
+	midCoordIndex = parseInt(myCoords.length/2);
+	midCoord = myCoords[midCoordIndex];
+	myView.setCenter(midCoord);
+	myView.setZoom(14);
+	JSLife.getSource().getFeatures()[5]
+	overlay.setPosition(midCoord);
+	var displaycontent = myFeature.get('description');
+	content.innerHTML = displaycontent;
+}
+			</code>
+		</pre>
+	</blockquote>
 	<!-- Finally showing the KML coding -->
 	<div class="new_h3">KML Code</div>
 	<div class="p1">
@@ -296,6 +341,7 @@ My pre-formatted "quoted" code here. NOT FINISHED YET!!!!
 			</code>
 		</pre>
 	</blockquote>
+	
 	<div class="new_h2">Why is it designed this way?</div>
 	<div class="p1">
 		
